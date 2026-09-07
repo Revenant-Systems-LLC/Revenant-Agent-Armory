@@ -1,0 +1,5046 @@
+{
+  "version": "2026-04-28T07:33:12.301709",
+  "directories": {
+    "agents/": {
+      "description": "",
+      "file_count": 63,
+      "purpose": "",
+      "items": [
+        {
+          "name": ".md",
+          "path": "agents/.md",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": ".md",
+          "path": "agents/.md",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "a11y-architect",
+          "path": "agents/a11y-architect",
+          "directory": "agents/",
+          "description": "Accessibility design review"
+        },
+        {
+          "name": "architect",
+          "path": "agents/architect",
+          "directory": "agents/",
+          "description": "System architecture planning"
+        },
+        {
+          "name": "build-error-resolver",
+          "path": "agents/build-error-resolver",
+          "directory": "agents/",
+          "description": "Generic build failure diagnosis"
+        },
+        {
+          "name": "chief-of-staff",
+          "path": "agents/chief-of-staff",
+          "directory": "agents/",
+          "description": "High-level project coordination"
+        },
+        {
+          "name": "code-architect",
+          "path": "agents/code-architect",
+          "directory": "agents/",
+          "description": "Code structure and design"
+        },
+        {
+          "name": "code-explorer",
+          "path": "agents/code-explorer",
+          "directory": "agents/",
+          "description": "Codebase navigation and discovery"
+        },
+        {
+          "name": "code-reviewer",
+          "path": "agents/code-reviewer",
+          "directory": "agents/",
+          "description": "General code review"
+        },
+        {
+          "name": "code-simplifier",
+          "path": "agents/code-simplifier",
+          "directory": "agents/",
+          "description": "Refactor for simplicity"
+        },
+        {
+          "name": "comment-analyzer",
+          "path": "agents/comment-analyzer",
+          "directory": "agents/",
+          "description": "Analyze and improve code comments"
+        },
+        {
+          "name": "conversation-analyzer",
+          "path": "agents/conversation-analyzer",
+          "directory": "agents/",
+          "description": "Parse and summarize conversations"
+        },
+        {
+          "name": "cpp-build-resolver",
+          "path": "agents/cpp-build-resolver",
+          "directory": "agents/",
+          "description": "C++ build failure diagnosis"
+        },
+        {
+          "name": "cpp-reviewer",
+          "path": "agents/cpp-reviewer",
+          "directory": "agents/",
+          "description": "C++ code review"
+        },
+        {
+          "name": "csharp-reviewer",
+          "path": "agents/csharp-reviewer",
+          "directory": "agents/",
+          "description": "C# code review"
+        },
+        {
+          "name": "dart-build-resolver",
+          "path": "agents/dart-build-resolver",
+          "directory": "agents/",
+          "description": "Dart/Flutter build diagnosis"
+        },
+        {
+          "name": "database-reviewer",
+          "path": "agents/database-reviewer",
+          "directory": "agents/",
+          "description": "Database schema and query review"
+        },
+        {
+          "name": "doc-updater",
+          "path": "agents/doc-updater",
+          "directory": "agents/",
+          "description": "Keep documentation current"
+        },
+        {
+          "name": "docs-lookup",
+          "path": "agents/docs-lookup",
+          "directory": "agents/",
+          "description": "Documentation search"
+        },
+        {
+          "name": "e2e-runner",
+          "path": "agents/e2e-runner",
+          "directory": "agents/",
+          "description": "End-to-end test execution"
+        },
+        {
+          "name": "flutter-reviewer",
+          "path": "agents/flutter-reviewer",
+          "directory": "agents/",
+          "description": "Flutter code review"
+        },
+        {
+          "name": "gan-evaluator` / `gan-generator` / `gan-planner",
+          "path": "agents/gan-evaluator` / `gan-generator` / `gan-planner",
+          "directory": "agents/",
+          "description": "GAN model workflow"
+        },
+        {
+          "name": "go-build-resolver",
+          "path": "agents/go-build-resolver",
+          "directory": "agents/",
+          "description": "Go build diagnosis"
+        },
+        {
+          "name": "go-reviewer",
+          "path": "agents/go-reviewer",
+          "directory": "agents/",
+          "description": "Go code review"
+        },
+        {
+          "name": "harness-optimizer",
+          "path": "agents/harness-optimizer",
+          "directory": "agents/",
+          "description": "Optimize agent harness config"
+        },
+        {
+          "name": "healthcare-reviewer",
+          "path": "agents/healthcare-reviewer",
+          "directory": "agents/",
+          "description": "Healthcare domain review"
+        },
+        {
+          "name": "java-build-resolver",
+          "path": "agents/java-build-resolver",
+          "directory": "agents/",
+          "description": "Java build diagnosis"
+        },
+        {
+          "name": "java-reviewer",
+          "path": "agents/java-reviewer",
+          "directory": "agents/",
+          "description": "Java code review"
+        },
+        {
+          "name": "kotlin-build-resolver",
+          "path": "agents/kotlin-build-resolver",
+          "directory": "agents/",
+          "description": "Kotlin build diagnosis"
+        },
+        {
+          "name": "kotlin-reviewer",
+          "path": "agents/kotlin-reviewer",
+          "directory": "agents/",
+          "description": "Kotlin code review"
+        },
+        {
+          "name": "loop-operator",
+          "path": "agents/loop-operator",
+          "directory": "agents/",
+          "description": "Manage looping agent workflows"
+        },
+        {
+          "name": "opensource-forker` / `opensource-packager` / `opensource-sanitizer",
+          "path": "agents/opensource-forker` / `opensource-packager` / `opensource-sanitizer",
+          "directory": "agents/",
+          "description": "OSS fork lifecycle"
+        },
+        {
+          "name": "performance-optimizer",
+          "path": "agents/performance-optimizer",
+          "directory": "agents/",
+          "description": "Performance profiling and tuning"
+        },
+        {
+          "name": "planner",
+          "path": "agents/planner",
+          "directory": "agents/",
+          "description": "Task and sprint planning"
+        },
+        {
+          "name": "pr-test-analyzer",
+          "path": "agents/pr-test-analyzer",
+          "directory": "agents/",
+          "description": "Analyze test coverage in PRs"
+        },
+        {
+          "name": "python-reviewer",
+          "path": "agents/python-reviewer",
+          "directory": "agents/",
+          "description": "Python code review"
+        },
+        {
+          "name": "pytorch-build-resolver",
+          "path": "agents/pytorch-build-resolver",
+          "directory": "agents/",
+          "description": "PyTorch environment diagnosis"
+        },
+        {
+          "name": "refactor-cleaner",
+          "path": "agents/refactor-cleaner",
+          "directory": "agents/",
+          "description": "Post-refactor cleanup"
+        },
+        {
+          "name": "rust-build-resolver",
+          "path": "agents/rust-build-resolver",
+          "directory": "agents/",
+          "description": "Rust build diagnosis"
+        },
+        {
+          "name": "rust-reviewer",
+          "path": "agents/rust-reviewer",
+          "directory": "agents/",
+          "description": "Rust code review"
+        },
+        {
+          "name": "security-reviewer",
+          "path": "agents/security-reviewer",
+          "directory": "agents/",
+          "description": "Security audit"
+        },
+        {
+          "name": "seo-specialist",
+          "path": "agents/seo-specialist",
+          "directory": "agents/",
+          "description": "SEO analysis"
+        },
+        {
+          "name": "silent-failure-hunter",
+          "path": "agents/silent-failure-hunter",
+          "directory": "agents/",
+          "description": "Find swallowed errors"
+        },
+        {
+          "name": "tdd-guide",
+          "path": "agents/tdd-guide",
+          "directory": "agents/",
+          "description": "Test-driven development guidance"
+        },
+        {
+          "name": "type-design-analyzer",
+          "path": "agents/type-design-analyzer",
+          "directory": "agents/",
+          "description": "Type system design review"
+        },
+        {
+          "name": "typescript-reviewer",
+          "path": "agents/typescript-reviewer",
+          "directory": "agents/",
+          "description": "TypeScript code review"
+        },
+        {
+          "name": "account_usage.py",
+          "path": "agents/account_usage.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "anthropic_adapter.py",
+          "path": "agents/anthropic_adapter.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "auxiliary_client.py",
+          "path": "agents/auxiliary_client.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "bedrock_adapter.py",
+          "path": "agents/bedrock_adapter.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "codex_responses_adapter.py",
+          "path": "agents/codex_responses_adapter.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "context_compressor.py",
+          "path": "agents/context_compressor.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "context_engine.py",
+          "path": "agents/context_engine.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "context_references.py",
+          "path": "agents/context_references.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "copilot_acp_client.py",
+          "path": "agents/copilot_acp_client.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "credential_pool.py",
+          "path": "agents/credential_pool.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "credential_sources.py",
+          "path": "agents/credential_sources.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "display.py",
+          "path": "agents/display.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "error_classifier.py",
+          "path": "agents/error_classifier.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "file_safety.py",
+          "path": "agents/file_safety.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "gemini_cloudcode_adapter.py",
+          "path": "agents/gemini_cloudcode_adapter.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "gemini_native_adapter.py",
+          "path": "agents/gemini_native_adapter.py",
+          "directory": "agents/",
+          "description": ""
+        },
+        {
+          "name": "gemini_schema.py",
+          "path": "agents/gemini_schema.py",
+          "directory": "agents/",
+          "description": ""
+        }
+      ]
+    },
+    "apis/": {
+      "description": "",
+      "file_count": 19,
+      "purpose": "",
+      "items": [
+        {
+          "name": "agents-apis-697",
+          "path": "apis/agents-apis-697",
+          "directory": "apis/",
+          "description": "697 agent APIs"
+        },
+        {
+          "name": "ai-apis-1208",
+          "path": "apis/ai-apis-1208",
+          "directory": "apis/",
+          "description": "1,208 AI/ML APIs"
+        },
+        {
+          "name": "automation-apis-4825",
+          "path": "apis/automation-apis-4825",
+          "directory": "apis/",
+          "description": "4,825 automation APIs"
+        },
+        {
+          "name": "business-apis-2",
+          "path": "apis/business-apis-2",
+          "directory": "apis/",
+          "description": "Business APIs"
+        },
+        {
+          "name": "developer-tools-apis-2652",
+          "path": "apis/developer-tools-apis-2652",
+          "directory": "apis/",
+          "description": "2,652 dev tool APIs"
+        },
+        {
+          "name": "ecommerce-apis-2440",
+          "path": "apis/ecommerce-apis-2440",
+          "directory": "apis/",
+          "description": "2,440 e-commerce APIs"
+        },
+        {
+          "name": "integrations-apis-890",
+          "path": "apis/integrations-apis-890",
+          "directory": "apis/",
+          "description": "890 integration APIs"
+        },
+        {
+          "name": "jobs-apis-848",
+          "path": "apis/jobs-apis-848",
+          "directory": "apis/",
+          "description": "848 jobs/recruiting APIs"
+        },
+        {
+          "name": "lead-generation-apis-3452",
+          "path": "apis/lead-generation-apis-3452",
+          "directory": "apis/",
+          "description": "3,452 lead gen APIs"
+        },
+        {
+          "name": "mcp-servers-apis-131",
+          "path": "apis/mcp-servers-apis-131",
+          "directory": "apis/",
+          "description": "131 MCP server APIs"
+        },
+        {
+          "name": "news-apis-590",
+          "path": "apis/news-apis-590",
+          "directory": "apis/",
+          "description": "590 news APIs"
+        },
+        {
+          "name": "open-source-apis-768",
+          "path": "apis/open-source-apis-768",
+          "directory": "apis/",
+          "description": "768 OSS APIs"
+        },
+        {
+          "name": "other-apis-1297",
+          "path": "apis/other-apis-1297",
+          "directory": "apis/",
+          "description": "1,297 misc APIs"
+        },
+        {
+          "name": "real-estate-apis-851",
+          "path": "apis/real-estate-apis-851",
+          "directory": "apis/",
+          "description": "851 real estate APIs"
+        },
+        {
+          "name": "seo-tools-apis-710",
+          "path": "apis/seo-tools-apis-710",
+          "directory": "apis/",
+          "description": "710 SEO tool APIs"
+        },
+        {
+          "name": "social-media-apis-3268",
+          "path": "apis/social-media-apis-3268",
+          "directory": "apis/",
+          "description": "3,268 social media APIs"
+        },
+        {
+          "name": "travel-apis-397",
+          "path": "apis/travel-apis-397",
+          "directory": "apis/",
+          "description": "397 travel APIs"
+        },
+        {
+          "name": "videos-apis-979",
+          "path": "apis/videos-apis-979",
+          "directory": "apis/",
+          "description": "979 video APIs"
+        },
+        {
+          "name": "settings/",
+          "path": "apis/settings/",
+          "directory": "apis/",
+          "description": "API catalog settings (3 files)"
+        }
+      ]
+    },
+    "cheatsheets/": {
+      "description": "",
+      "file_count": 3,
+      "purpose": "",
+      "items": [
+        {
+          "name": ".txt",
+          "path": "cheatsheets/.txt",
+          "directory": "cheatsheets/",
+          "description": ""
+        },
+        {
+          "name": ".docx",
+          "path": "cheatsheets/.docx",
+          "directory": "cheatsheets/",
+          "description": ""
+        },
+        {
+          "name": "CHEAT-SHEETS.zip",
+          "path": "cheatsheets/CHEAT-SHEETS.zip",
+          "directory": "cheatsheets/",
+          "description": ""
+        }
+      ]
+    },
+    "commands/": {
+      "description": "",
+      "file_count": 77,
+      "purpose": "",
+      "items": [
+        {
+          "name": ".md",
+          "path": "commands/.md",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "cpp-build",
+          "path": "commands/cpp-build",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "flutter-build",
+          "path": "commands/flutter-build",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "go-build",
+          "path": "commands/go-build",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "gradle-build",
+          "path": "commands/gradle-build",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "kotlin-build",
+          "path": "commands/kotlin-build",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "rust-build",
+          "path": "commands/rust-build",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "code-review",
+          "path": "commands/code-review",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "cpp-review",
+          "path": "commands/cpp-review",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "cpp-test",
+          "path": "commands/cpp-test",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "e2e",
+          "path": "commands/e2e",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "flutter-review",
+          "path": "commands/flutter-review",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "flutter-test",
+          "path": "commands/flutter-test",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "go-review",
+          "path": "commands/go-review",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "go-test",
+          "path": "commands/go-test",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "kotlin-review",
+          "path": "commands/kotlin-review",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "kotlin-test",
+          "path": "commands/kotlin-test",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "python-review",
+          "path": "commands/python-review",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "review-pr",
+          "path": "commands/review-pr",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "rust-review",
+          "path": "commands/rust-review",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "rust-test",
+          "path": "commands/rust-test",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "test-coverage",
+          "path": "commands/test-coverage",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "tdd",
+          "path": "commands/tdd",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "plan",
+          "path": "commands/plan",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "prp-plan",
+          "path": "commands/prp-plan",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "prp-prd",
+          "path": "commands/prp-prd",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "prp-commit",
+          "path": "commands/prp-commit",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "prp-implement",
+          "path": "commands/prp-implement",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "prp-pr",
+          "path": "commands/prp-pr",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "feature-dev",
+          "path": "commands/feature-dev",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "multi-plan",
+          "path": "commands/multi-plan",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "multi-backend",
+          "path": "commands/multi-backend",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "multi-frontend",
+          "path": "commands/multi-frontend",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "multi-execute",
+          "path": "commands/multi-execute",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "multi-workflow",
+          "path": "commands/multi-workflow",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "agent-sort",
+          "path": "commands/agent-sort",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "devfleet",
+          "path": "commands/devfleet",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "loop-start",
+          "path": "commands/loop-start",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "loop-status",
+          "path": "commands/loop-status",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "orchestrate",
+          "path": "commands/orchestrate",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "santa-loop",
+          "path": "commands/santa-loop",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "aside",
+          "path": "commands/aside",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "checkpoint",
+          "path": "commands/checkpoint",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "context-budget",
+          "path": "commands/context-budget",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "resume-session",
+          "path": "commands/resume-session",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "save-session",
+          "path": "commands/save-session",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "sessions",
+          "path": "commands/sessions",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "hookify",
+          "path": "commands/hookify",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "hookify-configure",
+          "path": "commands/hookify-configure",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "hookify-help",
+          "path": "commands/hookify-help",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "hookify-list",
+          "path": "commands/hookify-list",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "docs",
+          "path": "commands/docs",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "eval",
+          "path": "commands/eval",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "learn",
+          "path": "commands/learn",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "learn-eval",
+          "path": "commands/learn-eval",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "skill-create",
+          "path": "commands/skill-create",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "skill-health",
+          "path": "commands/skill-health",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "update-docs",
+          "path": "commands/update-docs",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "update-codemaps",
+          "path": "commands/update-codemaps",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "instinct-export",
+          "path": "commands/instinct-export",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "instinct-import",
+          "path": "commands/instinct-import",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "instinct-status",
+          "path": "commands/instinct-status",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "model-route",
+          "path": "commands/model-route",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "prompt-optimize",
+          "path": "commands/prompt-optimize",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "claw",
+          "path": "commands/claw",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "evolve",
+          "path": "commands/evolve",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "harness-audit",
+          "path": "commands/harness-audit",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "jira",
+          "path": "commands/jira",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "pm2",
+          "path": "commands/pm2",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "projects",
+          "path": "commands/projects",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "promote",
+          "path": "commands/promote",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "prune",
+          "path": "commands/prune",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "quality-gate",
+          "path": "commands/quality-gate",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "refactor-clean",
+          "path": "commands/refactor-clean",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "rules-distill",
+          "path": "commands/rules-distill",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "setup-pm",
+          "path": "commands/setup-pm",
+          "directory": "commands/",
+          "description": ""
+        },
+        {
+          "name": "verify",
+          "path": "commands/verify",
+          "directory": "commands/",
+          "description": ""
+        }
+      ]
+    },
+    "contexts/": {
+      "description": "",
+      "file_count": 3,
+      "purpose": "",
+      "items": [
+        {
+          "name": "dev.md",
+          "path": "contexts/dev.md",
+          "directory": "contexts/",
+          "description": "Active development \u2014 code first, atomic commits"
+        },
+        {
+          "name": "research.md",
+          "path": "contexts/research.md",
+          "directory": "contexts/",
+          "description": "Research and exploration mode"
+        },
+        {
+          "name": "review.md",
+          "path": "contexts/review.md",
+          "directory": "contexts/",
+          "description": "Code/PR review mode"
+        }
+      ]
+    },
+    "data/": {
+      "description": "",
+      "file_count": 5,
+      "purpose": "",
+      "items": [
+        {
+          "name": "aliases.json",
+          "path": "data/aliases.json",
+          "directory": "data/",
+          "description": "Command/skill name aliases"
+        },
+        {
+          "name": "bundles.json",
+          "path": "data/bundles.json",
+          "directory": "data/",
+          "description": "Bundle definitions"
+        },
+        {
+          "name": "catalog.json",
+          "path": "data/catalog.json",
+          "directory": "data/",
+          "description": "Master skills catalog (1,436 skills, generated 2026-02-08)"
+        },
+        {
+          "name": "editorial-bundles.json",
+          "path": "data/editorial-bundles.json",
+          "directory": "data/",
+          "description": "Curated editorial bundle sets"
+        },
+        {
+          "name": "package-lock.json",
+          "path": "data/package-lock.json",
+          "directory": "data/",
+          "description": "Node dependency lockfile"
+        }
+      ]
+    },
+    "docs/": {
+      "description": "",
+      "file_count": 4,
+      "purpose": "",
+      "items": [
+        {
+          "name": "ANTIGRAVITY-GUIDE.md",
+          "path": "docs/ANTIGRAVITY-GUIDE.md",
+          "directory": "docs/",
+          "description": ""
+        },
+        {
+          "name": "ARCHITECTURE-IMPROVEMENTS.md",
+          "path": "docs/ARCHITECTURE-IMPROVEMENTS.md",
+          "directory": "docs/",
+          "description": ""
+        },
+        {
+          "name": "AUDIT.md",
+          "path": "docs/AUDIT.md",
+          "directory": "docs/",
+          "description": ""
+        },
+        {
+          "name": "BUNDLES.md",
+          "path": "docs/BUNDLES.md",
+          "directory": "docs/",
+          "description": ""
+        }
+      ]
+    },
+    "hooks/": {
+      "description": "",
+      "file_count": 2,
+      "purpose": "",
+      "items": [
+        {
+          "name": "hooks.json",
+          "path": "hooks/hooks.json",
+          "directory": "hooks/",
+          "description": "Hook event definitions"
+        },
+        {
+          "name": "README.md",
+          "path": "hooks/README.md",
+          "directory": "hooks/",
+          "description": "Hook usage documentation"
+        }
+      ]
+    },
+    "integrations/": {
+      "description": "",
+      "file_count": 1,
+      "purpose": "",
+      "items": [
+        {
+          "name": ".md",
+          "path": "integrations/.md",
+          "directory": "integrations/",
+          "description": ""
+        }
+      ]
+    },
+    "mcp-configs/": {
+      "description": "",
+      "file_count": 1,
+      "purpose": "",
+      "items": [
+        {
+          "name": "mcp-servers.json",
+          "path": "mcp-configs/mcp-servers.json",
+          "directory": "mcp-configs/",
+          "description": "MCP server registry configuration"
+        }
+      ]
+    },
+    "plugins/": {
+      "description": "",
+      "file_count": 33,
+      "purpose": "",
+      "items": [
+        {
+          "name": "Bundle",
+          "path": "plugins/Bundle",
+          "directory": "plugins/",
+          "description": "Domain"
+        },
+        {
+          "name": "antigravity-awesome-skills` / `antigravity-awesome-skills-claude",
+          "path": "plugins/antigravity-awesome-skills` / `antigravity-awesome-skills-claude",
+          "directory": "plugins/",
+          "description": "Master skill collections"
+        },
+        {
+          "name": "antigravity-bundle-agent-architect",
+          "path": "plugins/antigravity-bundle-agent-architect",
+          "directory": "plugins/",
+          "description": "Agent system design"
+        },
+        {
+          "name": "antigravity-bundle-apple-platform-design",
+          "path": "plugins/antigravity-bundle-apple-platform-design",
+          "directory": "plugins/",
+          "description": "iOS/macOS design"
+        },
+        {
+          "name": "antigravity-bundle-architecture-design",
+          "path": "plugins/antigravity-bundle-architecture-design",
+          "directory": "plugins/",
+          "description": "Software architecture"
+        },
+        {
+          "name": "antigravity-bundle-automation-builder",
+          "path": "plugins/antigravity-bundle-automation-builder",
+          "directory": "plugins/",
+          "description": "Workflow automation"
+        },
+        {
+          "name": "antigravity-bundle-azure-ai-cloud",
+          "path": "plugins/antigravity-bundle-azure-ai-cloud",
+          "directory": "plugins/",
+          "description": "Azure AI/cloud"
+        },
+        {
+          "name": "antigravity-bundle-business-analyst",
+          "path": "plugins/antigravity-bundle-business-analyst",
+          "directory": "plugins/",
+          "description": "Business analysis"
+        },
+        {
+          "name": "antigravity-bundle-commerce-payments",
+          "path": "plugins/antigravity-bundle-commerce-payments",
+          "directory": "plugins/",
+          "description": "E-commerce/payments"
+        },
+        {
+          "name": "antigravity-bundle-creative-director",
+          "path": "plugins/antigravity-bundle-creative-director",
+          "directory": "plugins/",
+          "description": "Creative direction"
+        },
+        {
+          "name": "antigravity-bundle-data-analytics",
+          "path": "plugins/antigravity-bundle-data-analytics",
+          "directory": "plugins/",
+          "description": "Data analytics"
+        },
+        {
+          "name": "antigravity-bundle-data-engineering",
+          "path": "plugins/antigravity-bundle-data-engineering",
+          "directory": "plugins/",
+          "description": "Data pipelines"
+        },
+        {
+          "name": "antigravity-bundle-ddd-evented-architecture",
+          "path": "plugins/antigravity-bundle-ddd-evented-architecture",
+          "directory": "plugins/",
+          "description": "DDD / event-driven"
+        },
+        {
+          "name": "antigravity-bundle-devops-cloud",
+          "path": "plugins/antigravity-bundle-devops-cloud",
+          "directory": "plugins/",
+          "description": "DevOps/cloud ops"
+        },
+        {
+          "name": "antigravity-bundle-documents-presentations",
+          "path": "plugins/antigravity-bundle-documents-presentations",
+          "directory": "plugins/",
+          "description": "Docs and slides"
+        },
+        {
+          "name": "antigravity-bundle-essentials",
+          "path": "plugins/antigravity-bundle-essentials",
+          "directory": "plugins/",
+          "description": "Core essentials bundle"
+        },
+        {
+          "name": "antigravity-bundle-expo-react-native",
+          "path": "plugins/antigravity-bundle-expo-react-native",
+          "directory": "plugins/",
+          "description": "Expo/React Native"
+        },
+        {
+          "name": "antigravity-bundle-full-stack-developer",
+          "path": "plugins/antigravity-bundle-full-stack-developer",
+          "directory": "plugins/",
+          "description": "Full-stack dev"
+        },
+        {
+          "name": "antigravity-bundle-indie-game-dev",
+          "path": "plugins/antigravity-bundle-indie-game-dev",
+          "directory": "plugins/",
+          "description": "Game development"
+        },
+        {
+          "name": "antigravity-bundle-integration-apis",
+          "path": "plugins/antigravity-bundle-integration-apis",
+          "directory": "plugins/",
+          "description": "API integrations"
+        },
+        {
+          "name": "antigravity-bundle-llm-application-developer",
+          "path": "plugins/antigravity-bundle-llm-application-developer",
+          "directory": "plugins/",
+          "description": "LLM app dev"
+        },
+        {
+          "name": "antigravity-bundle-makepad-builder",
+          "path": "plugins/antigravity-bundle-makepad-builder",
+          "directory": "plugins/",
+          "description": "Makepad UI"
+        },
+        {
+          "name": "antigravity-bundle-marketing-growth",
+          "path": "plugins/antigravity-bundle-marketing-growth",
+          "directory": "plugins/",
+          "description": "Marketing/growth"
+        },
+        {
+          "name": "antigravity-bundle-mobile-developer",
+          "path": "plugins/antigravity-bundle-mobile-developer",
+          "directory": "plugins/",
+          "description": "Mobile dev"
+        },
+        {
+          "name": "antigravity-bundle-observability-monitoring",
+          "path": "plugins/antigravity-bundle-observability-monitoring",
+          "directory": "plugins/",
+          "description": "Observability"
+        },
+        {
+          "name": "antigravity-bundle-odoo-erp",
+          "path": "plugins/antigravity-bundle-odoo-erp",
+          "directory": "plugins/",
+          "description": "Odoo ERP"
+        },
+        {
+          "name": "antigravity-bundle-oss-maintainer",
+          "path": "plugins/antigravity-bundle-oss-maintainer",
+          "directory": "plugins/",
+          "description": "OSS maintenance"
+        },
+        {
+          "name": "antigravity-bundle-python-pro",
+          "path": "plugins/antigravity-bundle-python-pro",
+          "directory": "plugins/",
+          "description": "Python expertise"
+        },
+        {
+          "name": "antigravity-bundle-qa-testing",
+          "path": "plugins/antigravity-bundle-qa-testing",
+          "directory": "plugins/",
+          "description": "QA and testing"
+        },
+        {
+          "name": "antigravity-bundle-revops-crm-automation",
+          "path": "plugins/antigravity-bundle-revops-crm-automation",
+          "directory": "plugins/",
+          "description": "RevOps/CRM"
+        },
+        {
+          "name": "*(+ 15 more bundles)*",
+          "path": "plugins/*(+ 15 more bundles)*",
+          "directory": "plugins/",
+          "description": ""
+        },
+        {
+          "name": "__init__.py",
+          "path": "plugins/__init__.py",
+          "directory": "plugins/",
+          "description": ""
+        },
+        {
+          "name": "README.md",
+          "path": "plugins/README.md",
+          "directory": "plugins/",
+          "description": ""
+        }
+      ]
+    },
+    "research/": {
+      "description": "",
+      "file_count": 1,
+      "purpose": "",
+      "items": [
+        {
+          "name": "ecc2-codebase-analysis.md",
+          "path": "research/ecc2-codebase-analysis.md",
+          "directory": "research/",
+          "description": "Deep analysis of the ECC2 codebase"
+        }
+      ]
+    },
+    "rules/": {
+      "description": "",
+      "file_count": 26,
+      "purpose": "",
+      "items": [
+        {
+          "name": "common",
+          "path": "rules/common",
+          "directory": "rules/",
+          "description": ""
+        },
+        {
+          "name": "coding-style.md",
+          "path": "rules/coding-style.md",
+          "directory": "rules/",
+          "description": ""
+        },
+        {
+          "name": "git-workflow.md",
+          "path": "rules/git-workflow.md",
+          "directory": "rules/",
+          "description": ""
+        },
+        {
+          "name": "testing.md",
+          "path": "rules/testing.md",
+          "directory": "rules/",
+          "description": ""
+        },
+        {
+          "name": "performance.md",
+          "path": "rules/performance.md",
+          "directory": "rules/",
+          "description": ""
+        },
+        {
+          "name": "patterns.md",
+          "path": "rules/patterns.md",
+          "directory": "rules/",
+          "description": ""
+        },
+        {
+          "name": "hooks.md",
+          "path": "rules/hooks.md",
+          "directory": "rules/",
+          "description": ""
+        },
+        {
+          "name": "agents.md",
+          "path": "rules/agents.md",
+          "directory": "rules/",
+          "description": ""
+        },
+        {
+          "name": "security.md",
+          "path": "rules/security.md",
+          "directory": "rules/",
+          "description": ""
+        },
+        {
+          "name": "cpp/",
+          "path": "rules/cpp/",
+          "directory": "rules/",
+          "description": "C++"
+        },
+        {
+          "name": "csharp/",
+          "path": "rules/csharp/",
+          "directory": "rules/",
+          "description": "C#"
+        },
+        {
+          "name": "dart/",
+          "path": "rules/dart/",
+          "directory": "rules/",
+          "description": "Dart"
+        },
+        {
+          "name": "golang/",
+          "path": "rules/golang/",
+          "directory": "rules/",
+          "description": "Go"
+        },
+        {
+          "name": "java/",
+          "path": "rules/java/",
+          "directory": "rules/",
+          "description": "Java"
+        },
+        {
+          "name": "kotlin/",
+          "path": "rules/kotlin/",
+          "directory": "rules/",
+          "description": "Kotlin"
+        },
+        {
+          "name": "perl/",
+          "path": "rules/perl/",
+          "directory": "rules/",
+          "description": "Perl"
+        },
+        {
+          "name": "php/",
+          "path": "rules/php/",
+          "directory": "rules/",
+          "description": "PHP"
+        },
+        {
+          "name": "python/",
+          "path": "rules/python/",
+          "directory": "rules/",
+          "description": "Python"
+        },
+        {
+          "name": "rust/",
+          "path": "rules/rust/",
+          "directory": "rules/",
+          "description": "Rust"
+        },
+        {
+          "name": "swift/",
+          "path": "rules/swift/",
+          "directory": "rules/",
+          "description": "Swift"
+        },
+        {
+          "name": "typescript/",
+          "path": "rules/typescript/",
+          "directory": "rules/",
+          "description": "TypeScript/JavaScript"
+        },
+        {
+          "name": "web/",
+          "path": "rules/web/",
+          "directory": "rules/",
+          "description": "Web/Frontend"
+        },
+        {
+          "name": "zh/",
+          "path": "rules/zh/",
+          "directory": "rules/",
+          "description": "Chinese localization"
+        },
+        {
+          "name": "Boundaries.md",
+          "path": "rules/Boundaries.md",
+          "directory": "rules/",
+          "description": ""
+        },
+        {
+          "name": "Git-Guardrails.md",
+          "path": "rules/Git-Guardrails.md",
+          "directory": "rules/",
+          "description": ""
+        },
+        {
+          "name": "Repo-Policy.md",
+          "path": "rules/Repo-Policy.md",
+          "directory": "rules/",
+          "description": ""
+        }
+      ]
+    },
+    "schemas/": {
+      "description": "",
+      "file_count": 5,
+      "purpose": "",
+      "items": [
+        {
+          "name": "ecc-install-config.schema.json",
+          "path": "schemas/ecc-install-config.schema.json",
+          "directory": "schemas/",
+          "description": "ECC install configuration"
+        },
+        {
+          "name": "hooks.schema.json",
+          "path": "schemas/hooks.schema.json",
+          "directory": "schemas/",
+          "description": "Hook definitions"
+        },
+        {
+          "name": "install-components.schema.json",
+          "path": "schemas/install-components.schema.json",
+          "directory": "schemas/",
+          "description": "Component install manifests"
+        },
+        {
+          "name": "install-modules.schema.json",
+          "path": "schemas/install-modules.schema.json",
+          "directory": "schemas/",
+          "description": "Module install manifests"
+        },
+        {
+          "name": "install-profiles.schema.json",
+          "path": "schemas/install-profiles.schema.json",
+          "directory": "schemas/",
+          "description": "Install profile definitions"
+        }
+      ]
+    },
+    "scripts/": {
+      "description": "",
+      "file_count": 29,
+      "purpose": "",
+      "items": [
+        {
+          "name": "activate-skills.bat` / `.sh",
+          "path": "scripts/activate-skills.bat` / `.sh",
+          "directory": "scripts/",
+          "description": "Activate skills in Windows/Unix"
+        },
+        {
+          "name": "build-opencode.js",
+          "path": "scripts/build-opencode.js",
+          "directory": "scripts/",
+          "description": "Build OpenCode artifact"
+        },
+        {
+          "name": "build_model_catalog.py",
+          "path": "scripts/build_model_catalog.py",
+          "directory": "scripts/",
+          "description": "Generate model catalog JSON"
+        },
+        {
+          "name": "build_skills_index.py",
+          "path": "scripts/build_skills_index.py",
+          "directory": "scripts/",
+          "description": "Build skills search index"
+        },
+        {
+          "name": "catalog.js",
+          "path": "scripts/catalog.js",
+          "directory": "scripts/",
+          "description": "Catalog management"
+        },
+        {
+          "name": "claw.js",
+          "path": "scripts/claw.js",
+          "directory": "scripts/",
+          "description": "CLAW tool runner"
+        },
+        {
+          "name": "contributor_audit.py",
+          "path": "scripts/contributor_audit.py",
+          "directory": "scripts/",
+          "description": "Audit contributor files"
+        },
+        {
+          "name": "doctor.js",
+          "path": "scripts/doctor.js",
+          "directory": "scripts/",
+          "description": "System health check"
+        },
+        {
+          "name": "ecc.js",
+          "path": "scripts/ecc.js",
+          "directory": "scripts/",
+          "description": "ECC CLI entry point"
+        },
+        {
+          "name": "gan-harness.sh",
+          "path": "scripts/gan-harness.sh",
+          "directory": "scripts/",
+          "description": "GAN harness setup"
+        },
+        {
+          "name": "gemini-adapt-agents.js",
+          "path": "scripts/gemini-adapt-agents.js",
+          "directory": "scripts/",
+          "description": "Adapt agents for Gemini"
+        },
+        {
+          "name": "harness-audit.js",
+          "path": "scripts/harness-audit.js",
+          "directory": "scripts/",
+          "description": "Harness audit runner"
+        },
+        {
+          "name": "install.sh` / `.ps1` / `.cmd",
+          "path": "scripts/install.sh` / `.ps1` / `.cmd",
+          "directory": "scripts/",
+          "description": "Cross-platform install"
+        },
+        {
+          "name": "install-apply.js` / `install-plan.js",
+          "path": "scripts/install-apply.js` / `install-plan.js",
+          "directory": "scripts/",
+          "description": "Two-phase install logic"
+        },
+        {
+          "name": "orchestrate-worktrees.js",
+          "path": "scripts/orchestrate-worktrees.js",
+          "directory": "scripts/",
+          "description": "Multi-worktree orchestration"
+        },
+        {
+          "name": "release.py` / `release.sh",
+          "path": "scripts/release.py` / `release.sh",
+          "directory": "scripts/",
+          "description": "Release pipeline"
+        },
+        {
+          "name": "repair.js",
+          "path": "scripts/repair.js",
+          "directory": "scripts/",
+          "description": "Fix broken installs"
+        },
+        {
+          "name": "run_tests.sh",
+          "path": "scripts/run_tests.sh",
+          "directory": "scripts/",
+          "description": "Run test suite"
+        },
+        {
+          "name": "skills-health.js",
+          "path": "scripts/skills-health.js",
+          "directory": "scripts/",
+          "description": "Skills integrity check"
+        },
+        {
+          "name": "status.js",
+          "path": "scripts/status.js",
+          "directory": "scripts/",
+          "description": "System status reporter"
+        },
+        {
+          "name": "uninstall.js",
+          "path": "scripts/uninstall.js",
+          "directory": "scripts/",
+          "description": "Uninstall handler"
+        },
+        {
+          "name": "validate-links.sh` / `validate-glossary.sh",
+          "path": "scripts/validate-links.sh` / `validate-glossary.sh",
+          "directory": "scripts/",
+          "description": "Doc validation"
+        },
+        {
+          "name": "Dir",
+          "path": "scripts/Dir",
+          "directory": "scripts/",
+          "description": "Contents"
+        },
+        {
+          "name": "ci/",
+          "path": "scripts/ci/",
+          "directory": "scripts/",
+          "description": "CI pipeline scripts"
+        },
+        {
+          "name": "codemaps/",
+          "path": "scripts/codemaps/",
+          "directory": "scripts/",
+          "description": "Codemap generation"
+        },
+        {
+          "name": "codex/",
+          "path": "scripts/codex/",
+          "directory": "scripts/",
+          "description": "Codex-specific scripts"
+        },
+        {
+          "name": "codex-git-hooks/",
+          "path": "scripts/codex-git-hooks/",
+          "directory": "scripts/",
+          "description": "Git hooks for Codex"
+        },
+        {
+          "name": "hooks/",
+          "path": "scripts/hooks/",
+          "directory": "scripts/",
+          "description": "Hook scripts"
+        },
+        {
+          "name": "lib/",
+          "path": "scripts/lib/",
+          "directory": "scripts/",
+          "description": "Shared script libraries"
+        }
+      ]
+    },
+    "skills/": {
+      "description": "",
+      "file_count": 62,
+      "purpose": "",
+      "items": [
+        {
+          "name": "SKILL.md",
+          "path": "skills/SKILL.md",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "scripts/",
+          "path": "skills/scripts/",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "examples/",
+          "path": "skills/examples/",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "resources/",
+          "path": "skills/resources/",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "agent-orchestration-multi-agent-optimize",
+          "path": "skills/agent-orchestration-multi-agent-optimize",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "agent-orchestrator",
+          "path": "skills/agent-orchestrator",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "agent-sort",
+          "path": "skills/agent-sort",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "agentflow",
+          "path": "skills/agentflow",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "agentic-engineering",
+          "path": "skills/agentic-engineering",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "ai-agents-architect",
+          "path": "skills/ai-agents-architect",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "dispatching-parallel-agents",
+          "path": "skills/dispatching-parallel-agents",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "loop-operator",
+          "path": "skills/loop-operator",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "multi-agent",
+          "path": "skills/multi-agent",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "ai-engineer",
+          "path": "skills/ai-engineer",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "ai-engineering-toolkit",
+          "path": "skills/ai-engineering-toolkit",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "ai-first-engineering",
+          "path": "skills/ai-first-engineering",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "claude-mem",
+          "path": "skills/claude-mem",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "claude-api",
+          "path": "skills/claude-api",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "llm-application-developer",
+          "path": "skills/llm-application-developer",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "advanced-evaluation",
+          "path": "skills/advanced-evaluation",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "active-directory-attacks",
+          "path": "skills/active-directory-attacks",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "ethical-hacking-methodology",
+          "path": "skills/ethical-hacking-methodology",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "security-review",
+          "path": "skills/security-review",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "aegisops-ai",
+          "path": "skills/aegisops-ai",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "agentic-actions-auditor",
+          "path": "skills/agentic-actions-auditor",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "3d-web-experience",
+          "path": "skills/3d-web-experience",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "algorithmic-art",
+          "path": "skills/algorithmic-art",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "canvas-design",
+          "path": "skills/canvas-design",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "frontend-design",
+          "path": "skills/frontend-design",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "ui-ux-pro-max",
+          "path": "skills/ui-ux-pro-max",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "web-artifacts-builder",
+          "path": "skills/web-artifacts-builder",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "theme-factory",
+          "path": "skills/theme-factory",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "brand-guidelines",
+          "path": "skills/brand-guidelines",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "tdd-guide",
+          "path": "skills/tdd-guide",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "systematic-debugging",
+          "path": "skills/systematic-debugging",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "webapp-testing",
+          "path": "skills/webapp-testing",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "receiving-code-review",
+          "path": "skills/receiving-code-review",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "finishing-a-development-branch",
+          "path": "skills/finishing-a-development-branch",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "subagent-driven-development",
+          "path": "skills/subagent-driven-development",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "git-pushing",
+          "path": "skills/git-pushing",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "docx",
+          "path": "skills/docx",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "xlsx",
+          "path": "skills/xlsx",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "pptx",
+          "path": "skills/pptx",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "pdf",
+          "path": "skills/pdf",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "internal-comms",
+          "path": "skills/internal-comms",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "brainstorming",
+          "path": "skills/brainstorming",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "writing-plans",
+          "path": "skills/writing-plans",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "planning-with-files",
+          "path": "skills/planning-with-files",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "executing-plans",
+          "path": "skills/executing-plans",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "verification-before-completion",
+          "path": "skills/verification-before-completion",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "activecampaign-automation",
+          "path": "skills/activecampaign-automation",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "agent-payment-x402",
+          "path": "skills/agent-payment-x402",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "agentmail",
+          "path": "skills/agentmail",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "composio",
+          "path": "skills/composio",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "stripe-integration",
+          "path": "skills/stripe-integration",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "1password",
+          "path": "skills/1password",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "mcp-builder",
+          "path": "skills/mcp-builder",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "skill-creator",
+          "path": "skills/skill-creator",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "writing-skills",
+          "path": "skills/writing-skills",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "skill-smith",
+          "path": "skills/skill-smith",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "mcp-builder",
+          "path": "skills/mcp-builder",
+          "directory": "skills/",
+          "description": ""
+        },
+        {
+          "name": "data/catalog.json",
+          "path": "skills/data/catalog.json",
+          "directory": "skills/",
+          "description": ""
+        }
+      ]
+    },
+    "talents/": {
+      "description": "",
+      "file_count": 8,
+      "purpose": "",
+      "items": [
+        {
+          "name": "Bundle",
+          "path": "talents/Bundle",
+          "directory": "talents/",
+          "description": "Focus"
+        },
+        {
+          "name": "composition-patterns/",
+          "path": "talents/composition-patterns/",
+          "directory": "talents/",
+          "description": "React composition patterns"
+        },
+        {
+          "name": "deploy-to-vercel/",
+          "path": "talents/deploy-to-vercel/",
+          "directory": "talents/",
+          "description": "Vercel deployment"
+        },
+        {
+          "name": "react-best-practices/",
+          "path": "talents/react-best-practices/",
+          "directory": "talents/",
+          "description": "Modern React idioms"
+        },
+        {
+          "name": "react-native-skills/",
+          "path": "talents/react-native-skills/",
+          "directory": "talents/",
+          "description": "React Native development"
+        },
+        {
+          "name": "react-view-transitions/",
+          "path": "talents/react-view-transitions/",
+          "directory": "talents/",
+          "description": "View Transitions API"
+        },
+        {
+          "name": "vercel-cli-with-tokens/",
+          "path": "talents/vercel-cli-with-tokens/",
+          "directory": "talents/",
+          "description": "Vercel CLI + token auth"
+        },
+        {
+          "name": "web-design-guidelines/",
+          "path": "talents/web-design-guidelines/",
+          "directory": "talents/",
+          "description": "Web design standards"
+        }
+      ]
+    },
+    "tests/": {
+      "description": "",
+      "file_count": 17,
+      "purpose": "",
+      "items": [
+        {
+          "name": ".py",
+          "path": "tests/.py",
+          "directory": "tests/",
+          "description": ""
+        },
+        {
+          "name": "conftest.py",
+          "path": "tests/conftest.py",
+          "directory": "tests/",
+          "description": ""
+        },
+        {
+          "name": "run_interrupt_test.py",
+          "path": "tests/run_interrupt_test.py",
+          "directory": "tests/",
+          "description": ""
+        },
+        {
+          "name": "test_*.py",
+          "path": "tests/test_*.py",
+          "directory": "tests/",
+          "description": ""
+        },
+        {
+          "name": "Dir",
+          "path": "tests/Dir",
+          "directory": "tests/",
+          "description": "Tests for"
+        },
+        {
+          "name": "fakes/",
+          "path": "tests/fakes/",
+          "directory": "tests/",
+          "description": "Test fakes/mocks"
+        },
+        {
+          "name": "gateway/",
+          "path": "tests/gateway/",
+          "directory": "tests/",
+          "description": "Gateway layer tests"
+        },
+        {
+          "name": "hermes_cli/",
+          "path": "tests/hermes_cli/",
+          "directory": "tests/",
+          "description": "Hermes CLI tests"
+        },
+        {
+          "name": "hermes_state/",
+          "path": "tests/hermes_state/",
+          "directory": "tests/",
+          "description": "Hermes state management tests"
+        },
+        {
+          "name": "honcho_plugin/",
+          "path": "tests/honcho_plugin/",
+          "directory": "tests/",
+          "description": "Honcho plugin tests"
+        },
+        {
+          "name": "integration/",
+          "path": "tests/integration/",
+          "directory": "tests/",
+          "description": "Integration tests"
+        },
+        {
+          "name": "plugins/",
+          "path": "tests/plugins/",
+          "directory": "tests/",
+          "description": "Plugin system tests"
+        },
+        {
+          "name": "run_agent/",
+          "path": "tests/run_agent/",
+          "directory": "tests/",
+          "description": "Agent execution tests"
+        },
+        {
+          "name": "skills/",
+          "path": "tests/skills/",
+          "directory": "tests/",
+          "description": "Skills system tests"
+        },
+        {
+          "name": "tools/",
+          "path": "tests/tools/",
+          "directory": "tests/",
+          "description": "Tool module tests"
+        },
+        {
+          "name": "tui_gateway/",
+          "path": "tests/tui_gateway/",
+          "directory": "tests/",
+          "description": "TUI gateway tests"
+        },
+        {
+          "name": "website/",
+          "path": "tests/website/",
+          "directory": "tests/",
+          "description": "Website/web tool tests"
+        }
+      ]
+    },
+    "tools/": {
+      "description": "",
+      "file_count": 37,
+      "purpose": "",
+      "items": [
+        {
+          "name": "Module",
+          "path": "tools/Module",
+          "directory": "tools/",
+          "description": "Capability"
+        },
+        {
+          "name": "approval.py",
+          "path": "tools/approval.py",
+          "directory": "tools/",
+          "description": "User approval prompts"
+        },
+        {
+          "name": "browser_tool.py` / `browser_cdp_tool.py` / `browser_camofox.py",
+          "path": "tools/browser_tool.py` / `browser_cdp_tool.py` / `browser_camofox.py",
+          "directory": "tools/",
+          "description": "Browser automation"
+        },
+        {
+          "name": "budget_config.py",
+          "path": "tools/budget_config.py",
+          "directory": "tools/",
+          "description": "Token/cost budget management"
+        },
+        {
+          "name": "checkpoint_manager.py",
+          "path": "tools/checkpoint_manager.py",
+          "directory": "tools/",
+          "description": "Session checkpoint save/restore"
+        },
+        {
+          "name": "clarify_tool.py",
+          "path": "tools/clarify_tool.py",
+          "directory": "tools/",
+          "description": "Clarification requests"
+        },
+        {
+          "name": "code_execution_tool.py",
+          "path": "tools/code_execution_tool.py",
+          "directory": "tools/",
+          "description": "Sandboxed code execution"
+        },
+        {
+          "name": "credential_files.py",
+          "path": "tools/credential_files.py",
+          "directory": "tools/",
+          "description": "Credential file handling"
+        },
+        {
+          "name": "cronjob_tools.py",
+          "path": "tools/cronjob_tools.py",
+          "directory": "tools/",
+          "description": "Scheduled job tools"
+        },
+        {
+          "name": "delegate_tool.py",
+          "path": "tools/delegate_tool.py",
+          "directory": "tools/",
+          "description": "Sub-agent delegation"
+        },
+        {
+          "name": "discord_tool.py",
+          "path": "tools/discord_tool.py",
+          "directory": "tools/",
+          "description": "Discord integration"
+        },
+        {
+          "name": "feishu_doc_tool.py` / `feishu_drive_tool.py",
+          "path": "tools/feishu_doc_tool.py` / `feishu_drive_tool.py",
+          "directory": "tools/",
+          "description": "Feishu/Lark integration"
+        },
+        {
+          "name": "file_tools.py` / `file_operations.py` / `file_state.py",
+          "path": "tools/file_tools.py` / `file_operations.py` / `file_state.py",
+          "directory": "tools/",
+          "description": "File system tools"
+        },
+        {
+          "name": "image_generation_tool.py",
+          "path": "tools/image_generation_tool.py",
+          "directory": "tools/",
+          "description": "Image generation"
+        },
+        {
+          "name": "interrupt.py",
+          "path": "tools/interrupt.py",
+          "directory": "tools/",
+          "description": "Interrupt / cancel handling"
+        },
+        {
+          "name": "managed_tool_gateway.py",
+          "path": "tools/managed_tool_gateway.py",
+          "directory": "tools/",
+          "description": "Tool routing gateway"
+        },
+        {
+          "name": "mcp_tool.py` / `mcp_oauth.py` / `mcp_oauth_manager.py",
+          "path": "tools/mcp_tool.py` / `mcp_oauth.py` / `mcp_oauth_manager.py",
+          "directory": "tools/",
+          "description": "MCP tool integration"
+        },
+        {
+          "name": "memory_tool.py",
+          "path": "tools/memory_tool.py",
+          "directory": "tools/",
+          "description": "Persistent memory"
+        },
+        {
+          "name": "mixture_of_agents_tool.py",
+          "path": "tools/mixture_of_agents_tool.py",
+          "directory": "tools/",
+          "description": "Multi-model routing"
+        },
+        {
+          "name": "openrouter_client.py",
+          "path": "tools/openrouter_client.py",
+          "directory": "tools/",
+          "description": "OpenRouter API client"
+        },
+        {
+          "name": "osv_check.py",
+          "path": "tools/osv_check.py",
+          "directory": "tools/",
+          "description": "OSV vulnerability check"
+        },
+        {
+          "name": "path_security.py",
+          "path": "tools/path_security.py",
+          "directory": "tools/",
+          "description": "Path traversal protection"
+        },
+        {
+          "name": "process_registry.py",
+          "path": "tools/process_registry.py",
+          "directory": "tools/",
+          "description": "Process tracking"
+        },
+        {
+          "name": "schema_sanitizer.py",
+          "path": "tools/schema_sanitizer.py",
+          "directory": "tools/",
+          "description": "Schema normalization"
+        },
+        {
+          "name": "send_message_tool.py",
+          "path": "tools/send_message_tool.py",
+          "directory": "tools/",
+          "description": "Message dispatch"
+        },
+        {
+          "name": "session_search_tool.py",
+          "path": "tools/session_search_tool.py",
+          "directory": "tools/",
+          "description": "Session history search"
+        },
+        {
+          "name": "skill_manager_tool.py` / `skills_tool.py` / `skills_hub.py` / `skills_sync.py` / `skills_guard.py",
+          "path": "tools/skill_manager_tool.py` / `skills_tool.py` / `skills_hub.py` / `skills_sync.py` / `skills_guard.py",
+          "directory": "tools/",
+          "description": "Skills runtime"
+        },
+        {
+          "name": "terminal_tool.py",
+          "path": "tools/terminal_tool.py",
+          "directory": "tools/",
+          "description": "Terminal command execution"
+        },
+        {
+          "name": "tirith_security.py",
+          "path": "tools/tirith_security.py",
+          "directory": "tools/",
+          "description": "Tirith policy engine"
+        },
+        {
+          "name": "todo_tool.py",
+          "path": "tools/todo_tool.py",
+          "directory": "tools/",
+          "description": "Todo management"
+        },
+        {
+          "name": "transcription_tools.py` / `tts_tool.py` / `voice_mode.py",
+          "path": "tools/transcription_tools.py` / `tts_tool.py` / `voice_mode.py",
+          "directory": "tools/",
+          "description": "Audio/voice tools"
+        },
+        {
+          "name": "url_safety.py",
+          "path": "tools/url_safety.py",
+          "directory": "tools/",
+          "description": "URL safety checks"
+        },
+        {
+          "name": "vision_tools.py",
+          "path": "tools/vision_tools.py",
+          "directory": "tools/",
+          "description": "Image/vision analysis"
+        },
+        {
+          "name": "web_tools.py` / `website_policy.py",
+          "path": "tools/web_tools.py` / `website_policy.py",
+          "directory": "tools/",
+          "description": "Web fetch and policy"
+        },
+        {
+          "name": "xai_http.py",
+          "path": "tools/xai_http.py",
+          "directory": "tools/",
+          "description": "xAI API client"
+        },
+        {
+          "name": "yuanbao_tools.py",
+          "path": "tools/yuanbao_tools.py",
+          "directory": "tools/",
+          "description": "Yuanbao (Tencent) integration"
+        },
+        {
+          "name": "data/catalog.json",
+          "path": "tools/data/catalog.json",
+          "directory": "tools/",
+          "description": ""
+        }
+      ]
+    }
+  },
+  "search_index": {
+    "keywords": {
+      "a11y-architect": [
+        "agents/a11y-architect"
+      ],
+      "accessibility": [
+        "agents/a11y-architect"
+      ],
+      "design": [
+        "agents/a11y-architect",
+        "agents/code-architect",
+        "agents/type-design-analyzer",
+        "plugins/antigravity-bundle-agent-architect",
+        "plugins/antigravity-bundle-apple-platform-design",
+        "talents/web-design-guidelines/"
+      ],
+      "review": [
+        "agents/a11y-architect",
+        "agents/code-reviewer",
+        "agents/cpp-reviewer",
+        "agents/csharp-reviewer",
+        "agents/database-reviewer",
+        "agents/flutter-reviewer",
+        "agents/go-reviewer",
+        "agents/healthcare-reviewer",
+        "agents/java-reviewer",
+        "agents/kotlin-reviewer",
+        "agents/python-reviewer",
+        "agents/rust-reviewer",
+        "agents/type-design-analyzer",
+        "agents/typescript-reviewer",
+        "contexts/review.md"
+      ],
+      "architect": [
+        "agents/architect"
+      ],
+      "system": [
+        "agents/architect",
+        "agents/type-design-analyzer",
+        "plugins/antigravity-bundle-agent-architect",
+        "scripts/doctor.js",
+        "scripts/status.js",
+        "tests/plugins/",
+        "tests/skills/",
+        "tools/file_tools.py` / `file_operations.py` / `file_state.py"
+      ],
+      "architecture": [
+        "agents/architect",
+        "plugins/antigravity-bundle-architecture-design"
+      ],
+      "planning": [
+        "agents/architect",
+        "agents/planner"
+      ],
+      "build-error-resolver": [
+        "agents/build-error-resolver"
+      ],
+      "generic": [
+        "agents/build-error-resolver"
+      ],
+      "build": [
+        "agents/build-error-resolver",
+        "agents/cpp-build-resolver",
+        "agents/dart-build-resolver",
+        "agents/go-build-resolver",
+        "agents/java-build-resolver",
+        "agents/kotlin-build-resolver",
+        "agents/rust-build-resolver",
+        "scripts/build-opencode.js",
+        "scripts/build_skills_index.py"
+      ],
+      "failure": [
+        "agents/build-error-resolver",
+        "agents/cpp-build-resolver"
+      ],
+      "diagnosis": [
+        "agents/build-error-resolver",
+        "agents/cpp-build-resolver",
+        "agents/dart-build-resolver",
+        "agents/go-build-resolver",
+        "agents/java-build-resolver",
+        "agents/kotlin-build-resolver",
+        "agents/pytorch-build-resolver",
+        "agents/rust-build-resolver"
+      ],
+      "chief-of-staff": [
+        "agents/chief-of-staff"
+      ],
+      "high-level": [
+        "agents/chief-of-staff"
+      ],
+      "project": [
+        "agents/chief-of-staff"
+      ],
+      "coordination": [
+        "agents/chief-of-staff"
+      ],
+      "code-architect": [
+        "agents/code-architect"
+      ],
+      "code": [
+        "agents/code-architect",
+        "agents/code-reviewer",
+        "agents/comment-analyzer",
+        "agents/cpp-reviewer",
+        "agents/csharp-reviewer",
+        "agents/flutter-reviewer",
+        "agents/go-reviewer",
+        "agents/java-reviewer",
+        "agents/kotlin-reviewer",
+        "agents/python-reviewer",
+        "agents/rust-reviewer",
+        "agents/typescript-reviewer",
+        "contexts/dev.md",
+        "tools/code_execution_tool.py"
+      ],
+      "structure": [
+        "agents/code-architect"
+      ],
+      "and": [
+        "agents/code-architect",
+        "agents/code-explorer",
+        "agents/comment-analyzer",
+        "agents/conversation-analyzer",
+        "agents/database-reviewer",
+        "agents/performance-optimizer",
+        "agents/planner",
+        "contexts/research.md",
+        "plugins/antigravity-bundle-documents-presentations",
+        "plugins/antigravity-bundle-qa-testing",
+        "tools/web_tools.py` / `website_policy.py"
+      ],
+      "code-explorer": [
+        "agents/code-explorer"
+      ],
+      "codebase": [
+        "agents/code-explorer",
+        "research/ecc2-codebase-analysis.md"
+      ],
+      "navigation": [
+        "agents/code-explorer"
+      ],
+      "discovery": [
+        "agents/code-explorer"
+      ],
+      "code-reviewer": [
+        "agents/code-reviewer"
+      ],
+      "general": [
+        "agents/code-reviewer"
+      ],
+      "code-simplifier": [
+        "agents/code-simplifier"
+      ],
+      "refactor": [
+        "agents/code-simplifier"
+      ],
+      "for": [
+        "agents/code-simplifier",
+        "scripts/gemini-adapt-agents.js",
+        "scripts/codex-git-hooks/",
+        "tests/Dir"
+      ],
+      "simplicity": [
+        "agents/code-simplifier"
+      ],
+      "comment-analyzer": [
+        "agents/comment-analyzer"
+      ],
+      "analyze": [
+        "agents/comment-analyzer",
+        "agents/pr-test-analyzer"
+      ],
+      "improve": [
+        "agents/comment-analyzer"
+      ],
+      "comments": [
+        "agents/comment-analyzer"
+      ],
+      "conversation-analyzer": [
+        "agents/conversation-analyzer"
+      ],
+      "parse": [
+        "agents/conversation-analyzer"
+      ],
+      "summarize": [
+        "agents/conversation-analyzer"
+      ],
+      "conversations": [
+        "agents/conversation-analyzer"
+      ],
+      "cpp-build-resolver": [
+        "agents/cpp-build-resolver"
+      ],
+      "cpp-reviewer": [
+        "agents/cpp-reviewer"
+      ],
+      "csharp-reviewer": [
+        "agents/csharp-reviewer"
+      ],
+      "dart-build-resolver": [
+        "agents/dart-build-resolver"
+      ],
+      "dartflutter": [
+        "agents/dart-build-resolver"
+      ],
+      "database-reviewer": [
+        "agents/database-reviewer"
+      ],
+      "database": [
+        "agents/database-reviewer"
+      ],
+      "schema": [
+        "agents/database-reviewer",
+        "tools/schema_sanitizer.py"
+      ],
+      "query": [
+        "agents/database-reviewer"
+      ],
+      "doc-updater": [
+        "agents/doc-updater"
+      ],
+      "keep": [
+        "agents/doc-updater"
+      ],
+      "documentation": [
+        "agents/doc-updater",
+        "agents/docs-lookup",
+        "hooks/README.md"
+      ],
+      "current": [
+        "agents/doc-updater"
+      ],
+      "docs-lookup": [
+        "agents/docs-lookup"
+      ],
+      "search": [
+        "agents/docs-lookup",
+        "scripts/build_skills_index.py",
+        "tools/session_search_tool.py"
+      ],
+      "e2e-runner": [
+        "agents/e2e-runner"
+      ],
+      "end-to-end": [
+        "agents/e2e-runner"
+      ],
+      "test": [
+        "agents/e2e-runner",
+        "agents/pr-test-analyzer",
+        "scripts/run_tests.sh",
+        "tests/fakes/"
+      ],
+      "execution": [
+        "agents/e2e-runner",
+        "tests/run_agent/",
+        "tools/code_execution_tool.py",
+        "tools/terminal_tool.py"
+      ],
+      "flutter-reviewer": [
+        "agents/flutter-reviewer"
+      ],
+      "flutter": [
+        "agents/flutter-reviewer"
+      ],
+      "gan-evaluator": [
+        "agents/gan-evaluator` / `gan-generator` / `gan-planner"
+      ],
+      "gan-generator": [
+        "agents/gan-evaluator` / `gan-generator` / `gan-planner"
+      ],
+      "gan-planner": [
+        "agents/gan-evaluator` / `gan-generator` / `gan-planner"
+      ],
+      "gan": [
+        "agents/gan-evaluator` / `gan-generator` / `gan-planner",
+        "scripts/gan-harness.sh"
+      ],
+      "model": [
+        "agents/gan-evaluator` / `gan-generator` / `gan-planner",
+        "scripts/build_model_catalog.py"
+      ],
+      "workflow": [
+        "agents/gan-evaluator` / `gan-generator` / `gan-planner",
+        "plugins/antigravity-bundle-automation-builder"
+      ],
+      "go-build-resolver": [
+        "agents/go-build-resolver"
+      ],
+      "go-reviewer": [
+        "agents/go-reviewer"
+      ],
+      "harness-optimizer": [
+        "agents/harness-optimizer"
+      ],
+      "optimize": [
+        "agents/harness-optimizer"
+      ],
+      "agent": [
+        "agents/harness-optimizer",
+        "agents/loop-operator",
+        "apis/agents-apis-697",
+        "plugins/antigravity-bundle-agent-architect",
+        "tests/run_agent/"
+      ],
+      "harness": [
+        "agents/harness-optimizer",
+        "scripts/gan-harness.sh",
+        "scripts/harness-audit.js"
+      ],
+      "config": [
+        "agents/harness-optimizer"
+      ],
+      "healthcare-reviewer": [
+        "agents/healthcare-reviewer"
+      ],
+      "healthcare": [
+        "agents/healthcare-reviewer"
+      ],
+      "domain": [
+        "agents/healthcare-reviewer",
+        "plugins/Bundle"
+      ],
+      "java-build-resolver": [
+        "agents/java-build-resolver"
+      ],
+      "java": [
+        "agents/java-build-resolver",
+        "agents/java-reviewer",
+        "rules/java/",
+        "rules/java/"
+      ],
+      "java-reviewer": [
+        "agents/java-reviewer"
+      ],
+      "kotlin-build-resolver": [
+        "agents/kotlin-build-resolver"
+      ],
+      "kotlin": [
+        "agents/kotlin-build-resolver",
+        "agents/kotlin-reviewer",
+        "rules/kotlin/",
+        "rules/kotlin/"
+      ],
+      "kotlin-reviewer": [
+        "agents/kotlin-reviewer"
+      ],
+      "loop-operator": [
+        "agents/loop-operator",
+        "skills/loop-operator"
+      ],
+      "manage": [
+        "agents/loop-operator"
+      ],
+      "looping": [
+        "agents/loop-operator"
+      ],
+      "workflows": [
+        "agents/loop-operator"
+      ],
+      "opensource-forker": [
+        "agents/opensource-forker` / `opensource-packager` / `opensource-sanitizer"
+      ],
+      "opensource-packager": [
+        "agents/opensource-forker` / `opensource-packager` / `opensource-sanitizer"
+      ],
+      "opensource-sanitizer": [
+        "agents/opensource-forker` / `opensource-packager` / `opensource-sanitizer"
+      ],
+      "oss": [
+        "agents/opensource-forker` / `opensource-packager` / `opensource-sanitizer",
+        "apis/open-source-apis-768",
+        "plugins/antigravity-bundle-oss-maintainer"
+      ],
+      "fork": [
+        "agents/opensource-forker` / `opensource-packager` / `opensource-sanitizer"
+      ],
+      "lifecycle": [
+        "agents/opensource-forker` / `opensource-packager` / `opensource-sanitizer"
+      ],
+      "performance-optimizer": [
+        "agents/performance-optimizer"
+      ],
+      "performance": [
+        "agents/performance-optimizer"
+      ],
+      "profiling": [
+        "agents/performance-optimizer"
+      ],
+      "tuning": [
+        "agents/performance-optimizer"
+      ],
+      "planner": [
+        "agents/planner"
+      ],
+      "task": [
+        "agents/planner"
+      ],
+      "sprint": [
+        "agents/planner"
+      ],
+      "pr-test-analyzer": [
+        "agents/pr-test-analyzer"
+      ],
+      "coverage": [
+        "agents/pr-test-analyzer"
+      ],
+      "prs": [
+        "agents/pr-test-analyzer"
+      ],
+      "python-reviewer": [
+        "agents/python-reviewer"
+      ],
+      "python": [
+        "agents/python-reviewer",
+        "plugins/antigravity-bundle-python-pro",
+        "rules/python/",
+        "rules/python/"
+      ],
+      "pytorch-build-resolver": [
+        "agents/pytorch-build-resolver"
+      ],
+      "pytorch": [
+        "agents/pytorch-build-resolver"
+      ],
+      "environment": [
+        "agents/pytorch-build-resolver"
+      ],
+      "refactor-cleaner": [
+        "agents/refactor-cleaner"
+      ],
+      "post-refactor": [
+        "agents/refactor-cleaner"
+      ],
+      "cleanup": [
+        "agents/refactor-cleaner"
+      ],
+      "rust-build-resolver": [
+        "agents/rust-build-resolver"
+      ],
+      "rust": [
+        "agents/rust-build-resolver",
+        "agents/rust-reviewer",
+        "rules/rust/",
+        "rules/rust/"
+      ],
+      "rust-reviewer": [
+        "agents/rust-reviewer"
+      ],
+      "security-reviewer": [
+        "agents/security-reviewer"
+      ],
+      "security": [
+        "agents/security-reviewer"
+      ],
+      "audit": [
+        "agents/security-reviewer",
+        "scripts/contributor_audit.py",
+        "scripts/harness-audit.js"
+      ],
+      "seo-specialist": [
+        "agents/seo-specialist"
+      ],
+      "seo": [
+        "agents/seo-specialist",
+        "apis/seo-tools-apis-710"
+      ],
+      "analysis": [
+        "agents/seo-specialist",
+        "plugins/antigravity-bundle-business-analyst",
+        "research/ecc2-codebase-analysis.md",
+        "tools/vision_tools.py"
+      ],
+      "silent-failure-hunter": [
+        "agents/silent-failure-hunter"
+      ],
+      "find": [
+        "agents/silent-failure-hunter"
+      ],
+      "swallowed": [
+        "agents/silent-failure-hunter"
+      ],
+      "errors": [
+        "agents/silent-failure-hunter"
+      ],
+      "tdd-guide": [
+        "agents/tdd-guide",
+        "skills/tdd-guide"
+      ],
+      "test-driven": [
+        "agents/tdd-guide"
+      ],
+      "development": [
+        "agents/tdd-guide",
+        "contexts/dev.md",
+        "plugins/antigravity-bundle-indie-game-dev",
+        "talents/react-native-skills/"
+      ],
+      "guidance": [
+        "agents/tdd-guide"
+      ],
+      "type-design-analyzer": [
+        "agents/type-design-analyzer"
+      ],
+      "type": [
+        "agents/type-design-analyzer"
+      ],
+      "typescript-reviewer": [
+        "agents/typescript-reviewer"
+      ],
+      "typescript": [
+        "agents/typescript-reviewer",
+        "rules/typescript/"
+      ],
+      "account_usagepy": [
+        "agents/account_usage.py"
+      ],
+      "anthropic_adapterpy": [
+        "agents/anthropic_adapter.py"
+      ],
+      "auxiliary_clientpy": [
+        "agents/auxiliary_client.py"
+      ],
+      "bedrock_adapterpy": [
+        "agents/bedrock_adapter.py"
+      ],
+      "codex_responses_adapterpy": [
+        "agents/codex_responses_adapter.py"
+      ],
+      "context_compressorpy": [
+        "agents/context_compressor.py"
+      ],
+      "context_enginepy": [
+        "agents/context_engine.py"
+      ],
+      "context_referencespy": [
+        "agents/context_references.py"
+      ],
+      "copilot_acp_clientpy": [
+        "agents/copilot_acp_client.py"
+      ],
+      "credential_poolpy": [
+        "agents/credential_pool.py"
+      ],
+      "credential_sourcespy": [
+        "agents/credential_sources.py"
+      ],
+      "displaypy": [
+        "agents/display.py"
+      ],
+      "error_classifierpy": [
+        "agents/error_classifier.py"
+      ],
+      "file_safetypy": [
+        "agents/file_safety.py"
+      ],
+      "gemini_cloudcode_adapterpy": [
+        "agents/gemini_cloudcode_adapter.py"
+      ],
+      "gemini_native_adapterpy": [
+        "agents/gemini_native_adapter.py"
+      ],
+      "gemini_schemapy": [
+        "agents/gemini_schema.py"
+      ],
+      "agents-apis-697": [
+        "apis/agents-apis-697"
+      ],
+      "697": [
+        "apis/agents-apis-697"
+      ],
+      "apis": [
+        "apis/agents-apis-697",
+        "apis/ai-apis-1208",
+        "apis/automation-apis-4825",
+        "apis/business-apis-2",
+        "apis/developer-tools-apis-2652",
+        "apis/ecommerce-apis-2440",
+        "apis/integrations-apis-890",
+        "apis/jobs-apis-848",
+        "apis/lead-generation-apis-3452",
+        "apis/mcp-servers-apis-131",
+        "apis/news-apis-590",
+        "apis/open-source-apis-768",
+        "apis/other-apis-1297",
+        "apis/real-estate-apis-851",
+        "apis/seo-tools-apis-710",
+        "apis/social-media-apis-3268",
+        "apis/travel-apis-397",
+        "apis/videos-apis-979"
+      ],
+      "ai-apis-1208": [
+        "apis/ai-apis-1208"
+      ],
+      "1208": [
+        "apis/ai-apis-1208"
+      ],
+      "aiml": [
+        "apis/ai-apis-1208"
+      ],
+      "automation-apis-4825": [
+        "apis/automation-apis-4825"
+      ],
+      "4825": [
+        "apis/automation-apis-4825"
+      ],
+      "automation": [
+        "apis/automation-apis-4825",
+        "plugins/antigravity-bundle-automation-builder",
+        "tools/browser_tool.py` / `browser_cdp_tool.py` / `browser_camofox.py"
+      ],
+      "business-apis-2": [
+        "apis/business-apis-2"
+      ],
+      "business": [
+        "apis/business-apis-2",
+        "plugins/antigravity-bundle-business-analyst"
+      ],
+      "developer-tools-apis-2652": [
+        "apis/developer-tools-apis-2652"
+      ],
+      "2652": [
+        "apis/developer-tools-apis-2652"
+      ],
+      "dev": [
+        "apis/developer-tools-apis-2652",
+        "plugins/antigravity-bundle-full-stack-developer",
+        "plugins/antigravity-bundle-llm-application-developer",
+        "plugins/antigravity-bundle-mobile-developer"
+      ],
+      "tool": [
+        "apis/developer-tools-apis-2652",
+        "apis/seo-tools-apis-710",
+        "scripts/claw.js",
+        "tests/tools/",
+        "tests/website/",
+        "tools/managed_tool_gateway.py",
+        "tools/mcp_tool.py` / `mcp_oauth.py` / `mcp_oauth_manager.py"
+      ],
+      "ecommerce-apis-2440": [
+        "apis/ecommerce-apis-2440"
+      ],
+      "2440": [
+        "apis/ecommerce-apis-2440"
+      ],
+      "e-commerce": [
+        "apis/ecommerce-apis-2440"
+      ],
+      "integrations-apis-890": [
+        "apis/integrations-apis-890"
+      ],
+      "890": [
+        "apis/integrations-apis-890"
+      ],
+      "integration": [
+        "apis/integrations-apis-890",
+        "tests/integration/",
+        "tests/integration/",
+        "tools/discord_tool.py",
+        "tools/feishu_doc_tool.py` / `feishu_drive_tool.py",
+        "tools/mcp_tool.py` / `mcp_oauth.py` / `mcp_oauth_manager.py",
+        "tools/yuanbao_tools.py"
+      ],
+      "jobs-apis-848": [
+        "apis/jobs-apis-848"
+      ],
+      "848": [
+        "apis/jobs-apis-848"
+      ],
+      "jobsrecruiting": [
+        "apis/jobs-apis-848"
+      ],
+      "lead-generation-apis-3452": [
+        "apis/lead-generation-apis-3452"
+      ],
+      "3452": [
+        "apis/lead-generation-apis-3452"
+      ],
+      "lead": [
+        "apis/lead-generation-apis-3452"
+      ],
+      "gen": [
+        "apis/lead-generation-apis-3452"
+      ],
+      "mcp-servers-apis-131": [
+        "apis/mcp-servers-apis-131"
+      ],
+      "131": [
+        "apis/mcp-servers-apis-131"
+      ],
+      "mcp": [
+        "apis/mcp-servers-apis-131",
+        "mcp-configs/mcp-servers.json",
+        "tools/mcp_tool.py` / `mcp_oauth.py` / `mcp_oauth_manager.py"
+      ],
+      "server": [
+        "apis/mcp-servers-apis-131",
+        "mcp-configs/mcp-servers.json"
+      ],
+      "news-apis-590": [
+        "apis/news-apis-590"
+      ],
+      "590": [
+        "apis/news-apis-590"
+      ],
+      "news": [
+        "apis/news-apis-590"
+      ],
+      "open-source-apis-768": [
+        "apis/open-source-apis-768"
+      ],
+      "768": [
+        "apis/open-source-apis-768"
+      ],
+      "other-apis-1297": [
+        "apis/other-apis-1297"
+      ],
+      "1297": [
+        "apis/other-apis-1297"
+      ],
+      "misc": [
+        "apis/other-apis-1297"
+      ],
+      "real-estate-apis-851": [
+        "apis/real-estate-apis-851"
+      ],
+      "851": [
+        "apis/real-estate-apis-851"
+      ],
+      "real": [
+        "apis/real-estate-apis-851"
+      ],
+      "estate": [
+        "apis/real-estate-apis-851"
+      ],
+      "seo-tools-apis-710": [
+        "apis/seo-tools-apis-710"
+      ],
+      "710": [
+        "apis/seo-tools-apis-710"
+      ],
+      "social-media-apis-3268": [
+        "apis/social-media-apis-3268"
+      ],
+      "3268": [
+        "apis/social-media-apis-3268"
+      ],
+      "social": [
+        "apis/social-media-apis-3268"
+      ],
+      "media": [
+        "apis/social-media-apis-3268"
+      ],
+      "travel-apis-397": [
+        "apis/travel-apis-397"
+      ],
+      "397": [
+        "apis/travel-apis-397"
+      ],
+      "travel": [
+        "apis/travel-apis-397"
+      ],
+      "videos-apis-979": [
+        "apis/videos-apis-979"
+      ],
+      "979": [
+        "apis/videos-apis-979"
+      ],
+      "video": [
+        "apis/videos-apis-979"
+      ],
+      "settings": [
+        "apis/settings/",
+        "apis/settings/"
+      ],
+      "api": [
+        "apis/settings/",
+        "plugins/antigravity-bundle-integration-apis",
+        "talents/react-view-transitions/",
+        "tools/openrouter_client.py",
+        "tools/xai_http.py"
+      ],
+      "catalog": [
+        "apis/settings/",
+        "data/catalog.json",
+        "scripts/build_model_catalog.py",
+        "scripts/catalog.js"
+      ],
+      "files": [
+        "apis/settings/",
+        "scripts/contributor_audit.py"
+      ],
+      "txt": [
+        "cheatsheets/.txt"
+      ],
+      "docx": [
+        "cheatsheets/.docx",
+        "skills/docx"
+      ],
+      "cheat-sheetszip": [
+        "cheatsheets/CHEAT-SHEETS.zip"
+      ],
+      "cpp-build": [
+        "commands/cpp-build"
+      ],
+      "flutter-build": [
+        "commands/flutter-build"
+      ],
+      "go-build": [
+        "commands/go-build"
+      ],
+      "gradle-build": [
+        "commands/gradle-build"
+      ],
+      "kotlin-build": [
+        "commands/kotlin-build"
+      ],
+      "rust-build": [
+        "commands/rust-build"
+      ],
+      "code-review": [
+        "commands/code-review"
+      ],
+      "cpp-review": [
+        "commands/cpp-review"
+      ],
+      "cpp-test": [
+        "commands/cpp-test"
+      ],
+      "e2e": [
+        "commands/e2e"
+      ],
+      "flutter-review": [
+        "commands/flutter-review"
+      ],
+      "flutter-test": [
+        "commands/flutter-test"
+      ],
+      "go-review": [
+        "commands/go-review"
+      ],
+      "go-test": [
+        "commands/go-test"
+      ],
+      "kotlin-review": [
+        "commands/kotlin-review"
+      ],
+      "kotlin-test": [
+        "commands/kotlin-test"
+      ],
+      "python-review": [
+        "commands/python-review"
+      ],
+      "review-pr": [
+        "commands/review-pr"
+      ],
+      "rust-review": [
+        "commands/rust-review"
+      ],
+      "rust-test": [
+        "commands/rust-test"
+      ],
+      "test-coverage": [
+        "commands/test-coverage"
+      ],
+      "tdd": [
+        "commands/tdd"
+      ],
+      "plan": [
+        "commands/plan"
+      ],
+      "prp-plan": [
+        "commands/prp-plan"
+      ],
+      "prp-prd": [
+        "commands/prp-prd"
+      ],
+      "prp-commit": [
+        "commands/prp-commit"
+      ],
+      "prp-implement": [
+        "commands/prp-implement"
+      ],
+      "prp-pr": [
+        "commands/prp-pr"
+      ],
+      "feature-dev": [
+        "commands/feature-dev"
+      ],
+      "multi-plan": [
+        "commands/multi-plan"
+      ],
+      "multi-backend": [
+        "commands/multi-backend"
+      ],
+      "multi-frontend": [
+        "commands/multi-frontend"
+      ],
+      "multi-execute": [
+        "commands/multi-execute"
+      ],
+      "multi-workflow": [
+        "commands/multi-workflow"
+      ],
+      "agent-sort": [
+        "commands/agent-sort",
+        "skills/agent-sort"
+      ],
+      "devfleet": [
+        "commands/devfleet"
+      ],
+      "loop-start": [
+        "commands/loop-start"
+      ],
+      "loop-status": [
+        "commands/loop-status"
+      ],
+      "orchestrate": [
+        "commands/orchestrate"
+      ],
+      "santa-loop": [
+        "commands/santa-loop"
+      ],
+      "aside": [
+        "commands/aside"
+      ],
+      "checkpoint": [
+        "commands/checkpoint",
+        "tools/checkpoint_manager.py"
+      ],
+      "context-budget": [
+        "commands/context-budget"
+      ],
+      "resume-session": [
+        "commands/resume-session"
+      ],
+      "save-session": [
+        "commands/save-session"
+      ],
+      "sessions": [
+        "commands/sessions"
+      ],
+      "hookify": [
+        "commands/hookify"
+      ],
+      "hookify-configure": [
+        "commands/hookify-configure"
+      ],
+      "hookify-help": [
+        "commands/hookify-help"
+      ],
+      "hookify-list": [
+        "commands/hookify-list"
+      ],
+      "docs": [
+        "commands/docs",
+        "plugins/antigravity-bundle-documents-presentations"
+      ],
+      "eval": [
+        "commands/eval"
+      ],
+      "learn": [
+        "commands/learn"
+      ],
+      "learn-eval": [
+        "commands/learn-eval"
+      ],
+      "skill-create": [
+        "commands/skill-create"
+      ],
+      "skill-health": [
+        "commands/skill-health"
+      ],
+      "update-docs": [
+        "commands/update-docs"
+      ],
+      "update-codemaps": [
+        "commands/update-codemaps"
+      ],
+      "instinct-export": [
+        "commands/instinct-export"
+      ],
+      "instinct-import": [
+        "commands/instinct-import"
+      ],
+      "instinct-status": [
+        "commands/instinct-status"
+      ],
+      "model-route": [
+        "commands/model-route"
+      ],
+      "prompt-optimize": [
+        "commands/prompt-optimize"
+      ],
+      "claw": [
+        "commands/claw",
+        "scripts/claw.js"
+      ],
+      "evolve": [
+        "commands/evolve"
+      ],
+      "harness-audit": [
+        "commands/harness-audit"
+      ],
+      "jira": [
+        "commands/jira"
+      ],
+      "pm2": [
+        "commands/pm2"
+      ],
+      "projects": [
+        "commands/projects"
+      ],
+      "promote": [
+        "commands/promote"
+      ],
+      "prune": [
+        "commands/prune"
+      ],
+      "quality-gate": [
+        "commands/quality-gate"
+      ],
+      "refactor-clean": [
+        "commands/refactor-clean"
+      ],
+      "rules-distill": [
+        "commands/rules-distill"
+      ],
+      "setup-pm": [
+        "commands/setup-pm"
+      ],
+      "verify": [
+        "commands/verify"
+      ],
+      "devmd": [
+        "contexts/dev.md"
+      ],
+      "active": [
+        "contexts/dev.md"
+      ],
+      "first": [
+        "contexts/dev.md"
+      ],
+      "atomic": [
+        "contexts/dev.md"
+      ],
+      "commits": [
+        "contexts/dev.md"
+      ],
+      "researchmd": [
+        "contexts/research.md"
+      ],
+      "research": [
+        "contexts/research.md"
+      ],
+      "exploration": [
+        "contexts/research.md"
+      ],
+      "mode": [
+        "contexts/research.md",
+        "contexts/review.md"
+      ],
+      "reviewmd": [
+        "contexts/review.md"
+      ],
+      "codepr": [
+        "contexts/review.md"
+      ],
+      "aliasesjson": [
+        "data/aliases.json"
+      ],
+      "commandskill": [
+        "data/aliases.json"
+      ],
+      "name": [
+        "data/aliases.json"
+      ],
+      "aliases": [
+        "data/aliases.json"
+      ],
+      "bundlesjson": [
+        "data/bundles.json"
+      ],
+      "bundle": [
+        "data/bundles.json",
+        "data/editorial-bundles.json",
+        "plugins/Bundle",
+        "plugins/antigravity-bundle-essentials",
+        "talents/Bundle"
+      ],
+      "definitions": [
+        "data/bundles.json",
+        "hooks/hooks.json",
+        "schemas/hooks.schema.json",
+        "schemas/install-profiles.schema.json"
+      ],
+      "catalogjson": [
+        "data/catalog.json"
+      ],
+      "master": [
+        "data/catalog.json",
+        "plugins/antigravity-awesome-skills` / `antigravity-awesome-skills-claude"
+      ],
+      "skills": [
+        "data/catalog.json",
+        "data/catalog.json",
+        "scripts/activate-skills.bat` / `.sh",
+        "scripts/build_skills_index.py",
+        "scripts/skills-health.js",
+        "tests/skills/",
+        "tests/skills/",
+        "tools/skill_manager_tool.py` / `skills_tool.py` / `skills_hub.py` / `skills_sync.py` / `skills_guard.py"
+      ],
+      "1436": [
+        "data/catalog.json"
+      ],
+      "generated": [
+        "data/catalog.json"
+      ],
+      "2026-02-08": [
+        "data/catalog.json"
+      ],
+      "editorial-bundlesjson": [
+        "data/editorial-bundles.json"
+      ],
+      "curated": [
+        "data/editorial-bundles.json"
+      ],
+      "editorial": [
+        "data/editorial-bundles.json"
+      ],
+      "sets": [
+        "data/editorial-bundles.json"
+      ],
+      "package-lockjson": [
+        "data/package-lock.json"
+      ],
+      "node": [
+        "data/package-lock.json"
+      ],
+      "dependency": [
+        "data/package-lock.json"
+      ],
+      "lockfile": [
+        "data/package-lock.json"
+      ],
+      "antigravity-guidemd": [
+        "docs/ANTIGRAVITY-GUIDE.md"
+      ],
+      "architecture-improvementsmd": [
+        "docs/ARCHITECTURE-IMPROVEMENTS.md"
+      ],
+      "auditmd": [
+        "docs/AUDIT.md"
+      ],
+      "bundlesmd": [
+        "docs/BUNDLES.md"
+      ],
+      "hooksjson": [
+        "hooks/hooks.json"
+      ],
+      "hook": [
+        "hooks/hooks.json",
+        "hooks/README.md",
+        "schemas/hooks.schema.json",
+        "scripts/hooks/"
+      ],
+      "event": [
+        "hooks/hooks.json"
+      ],
+      "readmemd": [
+        "hooks/README.md",
+        "plugins/README.md"
+      ],
+      "usage": [
+        "hooks/README.md"
+      ],
+      "mcp-serversjson": [
+        "mcp-configs/mcp-servers.json"
+      ],
+      "registry": [
+        "mcp-configs/mcp-servers.json"
+      ],
+      "configuration": [
+        "mcp-configs/mcp-servers.json",
+        "schemas/ecc-install-config.schema.json"
+      ],
+      "antigravity-awesome-skills": [
+        "plugins/antigravity-awesome-skills` / `antigravity-awesome-skills-claude"
+      ],
+      "antigravity-awesome-skills-claude": [
+        "plugins/antigravity-awesome-skills` / `antigravity-awesome-skills-claude"
+      ],
+      "skill": [
+        "plugins/antigravity-awesome-skills` / `antigravity-awesome-skills-claude"
+      ],
+      "collections": [
+        "plugins/antigravity-awesome-skills` / `antigravity-awesome-skills-claude"
+      ],
+      "antigravity-bundle-agent-architect": [
+        "plugins/antigravity-bundle-agent-architect"
+      ],
+      "antigravity-bundle-apple-platform-design": [
+        "plugins/antigravity-bundle-apple-platform-design"
+      ],
+      "iosmacos": [
+        "plugins/antigravity-bundle-apple-platform-design"
+      ],
+      "antigravity-bundle-architecture-design": [
+        "plugins/antigravity-bundle-architecture-design"
+      ],
+      "software": [
+        "plugins/antigravity-bundle-architecture-design"
+      ],
+      "antigravity-bundle-automation-builder": [
+        "plugins/antigravity-bundle-automation-builder"
+      ],
+      "antigravity-bundle-azure-ai-cloud": [
+        "plugins/antigravity-bundle-azure-ai-cloud"
+      ],
+      "azure": [
+        "plugins/antigravity-bundle-azure-ai-cloud"
+      ],
+      "aicloud": [
+        "plugins/antigravity-bundle-azure-ai-cloud"
+      ],
+      "antigravity-bundle-business-analyst": [
+        "plugins/antigravity-bundle-business-analyst"
+      ],
+      "antigravity-bundle-commerce-payments": [
+        "plugins/antigravity-bundle-commerce-payments"
+      ],
+      "e-commercepayments": [
+        "plugins/antigravity-bundle-commerce-payments"
+      ],
+      "antigravity-bundle-creative-director": [
+        "plugins/antigravity-bundle-creative-director"
+      ],
+      "creative": [
+        "plugins/antigravity-bundle-creative-director"
+      ],
+      "direction": [
+        "plugins/antigravity-bundle-creative-director"
+      ],
+      "antigravity-bundle-data-analytics": [
+        "plugins/antigravity-bundle-data-analytics"
+      ],
+      "data": [
+        "plugins/antigravity-bundle-data-analytics",
+        "plugins/antigravity-bundle-data-engineering"
+      ],
+      "analytics": [
+        "plugins/antigravity-bundle-data-analytics"
+      ],
+      "antigravity-bundle-data-engineering": [
+        "plugins/antigravity-bundle-data-engineering"
+      ],
+      "pipelines": [
+        "plugins/antigravity-bundle-data-engineering"
+      ],
+      "antigravity-bundle-ddd-evented-architecture": [
+        "plugins/antigravity-bundle-ddd-evented-architecture"
+      ],
+      "ddd": [
+        "plugins/antigravity-bundle-ddd-evented-architecture"
+      ],
+      "event-driven": [
+        "plugins/antigravity-bundle-ddd-evented-architecture"
+      ],
+      "antigravity-bundle-devops-cloud": [
+        "plugins/antigravity-bundle-devops-cloud"
+      ],
+      "devopscloud": [
+        "plugins/antigravity-bundle-devops-cloud"
+      ],
+      "ops": [
+        "plugins/antigravity-bundle-devops-cloud"
+      ],
+      "antigravity-bundle-documents-presentations": [
+        "plugins/antigravity-bundle-documents-presentations"
+      ],
+      "slides": [
+        "plugins/antigravity-bundle-documents-presentations"
+      ],
+      "antigravity-bundle-essentials": [
+        "plugins/antigravity-bundle-essentials"
+      ],
+      "core": [
+        "plugins/antigravity-bundle-essentials"
+      ],
+      "essentials": [
+        "plugins/antigravity-bundle-essentials"
+      ],
+      "antigravity-bundle-expo-react-native": [
+        "plugins/antigravity-bundle-expo-react-native"
+      ],
+      "exporeact": [
+        "plugins/antigravity-bundle-expo-react-native"
+      ],
+      "native": [
+        "plugins/antigravity-bundle-expo-react-native",
+        "talents/react-native-skills/"
+      ],
+      "antigravity-bundle-full-stack-developer": [
+        "plugins/antigravity-bundle-full-stack-developer"
+      ],
+      "full-stack": [
+        "plugins/antigravity-bundle-full-stack-developer"
+      ],
+      "antigravity-bundle-indie-game-dev": [
+        "plugins/antigravity-bundle-indie-game-dev"
+      ],
+      "game": [
+        "plugins/antigravity-bundle-indie-game-dev"
+      ],
+      "antigravity-bundle-integration-apis": [
+        "plugins/antigravity-bundle-integration-apis"
+      ],
+      "integrations": [
+        "plugins/antigravity-bundle-integration-apis"
+      ],
+      "antigravity-bundle-llm-application-developer": [
+        "plugins/antigravity-bundle-llm-application-developer"
+      ],
+      "llm": [
+        "plugins/antigravity-bundle-llm-application-developer"
+      ],
+      "app": [
+        "plugins/antigravity-bundle-llm-application-developer"
+      ],
+      "antigravity-bundle-makepad-builder": [
+        "plugins/antigravity-bundle-makepad-builder"
+      ],
+      "makepad": [
+        "plugins/antigravity-bundle-makepad-builder"
+      ],
+      "antigravity-bundle-marketing-growth": [
+        "plugins/antigravity-bundle-marketing-growth"
+      ],
+      "marketinggrowth": [
+        "plugins/antigravity-bundle-marketing-growth"
+      ],
+      "antigravity-bundle-mobile-developer": [
+        "plugins/antigravity-bundle-mobile-developer"
+      ],
+      "mobile": [
+        "plugins/antigravity-bundle-mobile-developer"
+      ],
+      "antigravity-bundle-observability-monitoring": [
+        "plugins/antigravity-bundle-observability-monitoring"
+      ],
+      "observability": [
+        "plugins/antigravity-bundle-observability-monitoring"
+      ],
+      "antigravity-bundle-odoo-erp": [
+        "plugins/antigravity-bundle-odoo-erp"
+      ],
+      "odoo": [
+        "plugins/antigravity-bundle-odoo-erp"
+      ],
+      "erp": [
+        "plugins/antigravity-bundle-odoo-erp"
+      ],
+      "antigravity-bundle-oss-maintainer": [
+        "plugins/antigravity-bundle-oss-maintainer"
+      ],
+      "maintenance": [
+        "plugins/antigravity-bundle-oss-maintainer"
+      ],
+      "antigravity-bundle-python-pro": [
+        "plugins/antigravity-bundle-python-pro"
+      ],
+      "expertise": [
+        "plugins/antigravity-bundle-python-pro"
+      ],
+      "antigravity-bundle-qa-testing": [
+        "plugins/antigravity-bundle-qa-testing"
+      ],
+      "testing": [
+        "plugins/antigravity-bundle-qa-testing"
+      ],
+      "antigravity-bundle-revops-crm-automation": [
+        "plugins/antigravity-bundle-revops-crm-automation"
+      ],
+      "revopscrm": [
+        "plugins/antigravity-bundle-revops-crm-automation"
+      ],
+      "more": [
+        "plugins/*(+ 15 more bundles)*"
+      ],
+      "bundles": [
+        "plugins/*(+ 15 more bundles)*"
+      ],
+      "__init__py": [
+        "plugins/__init__.py"
+      ],
+      "ecc2-codebase-analysismd": [
+        "research/ecc2-codebase-analysis.md"
+      ],
+      "deep": [
+        "research/ecc2-codebase-analysis.md"
+      ],
+      "the": [
+        "research/ecc2-codebase-analysis.md"
+      ],
+      "ecc2": [
+        "research/ecc2-codebase-analysis.md"
+      ],
+      "common": [
+        "rules/common"
+      ],
+      "coding-stylemd": [
+        "rules/coding-style.md"
+      ],
+      "git-workflowmd": [
+        "rules/git-workflow.md"
+      ],
+      "testingmd": [
+        "rules/testing.md"
+      ],
+      "performancemd": [
+        "rules/performance.md"
+      ],
+      "patternsmd": [
+        "rules/patterns.md"
+      ],
+      "hooksmd": [
+        "rules/hooks.md"
+      ],
+      "agentsmd": [
+        "rules/agents.md"
+      ],
+      "securitymd": [
+        "rules/security.md"
+      ],
+      "cpp": [
+        "rules/cpp/"
+      ],
+      "csharp": [
+        "rules/csharp/"
+      ],
+      "dart": [
+        "rules/dart/",
+        "rules/dart/"
+      ],
+      "golang": [
+        "rules/golang/"
+      ],
+      "perl": [
+        "rules/perl/",
+        "rules/perl/"
+      ],
+      "php": [
+        "rules/php/",
+        "rules/php/"
+      ],
+      "swift": [
+        "rules/swift/",
+        "rules/swift/"
+      ],
+      "typescriptjavascript": [
+        "rules/typescript/"
+      ],
+      "web": [
+        "rules/web/",
+        "talents/web-design-guidelines/",
+        "tools/web_tools.py` / `website_policy.py"
+      ],
+      "webfrontend": [
+        "rules/web/"
+      ],
+      "chinese": [
+        "rules/zh/"
+      ],
+      "localization": [
+        "rules/zh/"
+      ],
+      "boundariesmd": [
+        "rules/Boundaries.md"
+      ],
+      "git-guardrailsmd": [
+        "rules/Git-Guardrails.md"
+      ],
+      "repo-policymd": [
+        "rules/Repo-Policy.md"
+      ],
+      "ecc-install-configschemajson": [
+        "schemas/ecc-install-config.schema.json"
+      ],
+      "ecc": [
+        "schemas/ecc-install-config.schema.json",
+        "scripts/ecc.js"
+      ],
+      "install": [
+        "schemas/ecc-install-config.schema.json",
+        "schemas/install-components.schema.json",
+        "schemas/install-modules.schema.json",
+        "schemas/install-profiles.schema.json",
+        "scripts/install.sh` / `.ps1` / `.cmd",
+        "scripts/install-apply.js` / `install-plan.js"
+      ],
+      "hooksschemajson": [
+        "schemas/hooks.schema.json"
+      ],
+      "install-componentsschemajson": [
+        "schemas/install-components.schema.json"
+      ],
+      "component": [
+        "schemas/install-components.schema.json"
+      ],
+      "manifests": [
+        "schemas/install-components.schema.json",
+        "schemas/install-modules.schema.json"
+      ],
+      "install-modulesschemajson": [
+        "schemas/install-modules.schema.json"
+      ],
+      "module": [
+        "schemas/install-modules.schema.json",
+        "tests/tools/",
+        "tools/Module"
+      ],
+      "install-profilesschemajson": [
+        "schemas/install-profiles.schema.json"
+      ],
+      "profile": [
+        "schemas/install-profiles.schema.json"
+      ],
+      "activate-skillsbat": [
+        "scripts/activate-skills.bat` / `.sh"
+      ],
+      "activate": [
+        "scripts/activate-skills.bat` / `.sh"
+      ],
+      "windowsunix": [
+        "scripts/activate-skills.bat` / `.sh"
+      ],
+      "build-opencodejs": [
+        "scripts/build-opencode.js"
+      ],
+      "opencode": [
+        "scripts/build-opencode.js"
+      ],
+      "artifact": [
+        "scripts/build-opencode.js"
+      ],
+      "build_model_catalogpy": [
+        "scripts/build_model_catalog.py"
+      ],
+      "generate": [
+        "scripts/build_model_catalog.py"
+      ],
+      "json": [
+        "scripts/build_model_catalog.py"
+      ],
+      "build_skills_indexpy": [
+        "scripts/build_skills_index.py"
+      ],
+      "index": [
+        "scripts/build_skills_index.py"
+      ],
+      "catalogjs": [
+        "scripts/catalog.js"
+      ],
+      "management": [
+        "scripts/catalog.js",
+        "tests/hermes_state/",
+        "tools/budget_config.py",
+        "tools/todo_tool.py"
+      ],
+      "clawjs": [
+        "scripts/claw.js"
+      ],
+      "runner": [
+        "scripts/claw.js",
+        "scripts/harness-audit.js"
+      ],
+      "contributor_auditpy": [
+        "scripts/contributor_audit.py"
+      ],
+      "contributor": [
+        "scripts/contributor_audit.py"
+      ],
+      "doctorjs": [
+        "scripts/doctor.js"
+      ],
+      "health": [
+        "scripts/doctor.js"
+      ],
+      "check": [
+        "scripts/doctor.js",
+        "scripts/skills-health.js",
+        "tools/osv_check.py"
+      ],
+      "eccjs": [
+        "scripts/ecc.js"
+      ],
+      "cli": [
+        "scripts/ecc.js",
+        "talents/vercel-cli-with-tokens/",
+        "tests/hermes_cli/"
+      ],
+      "entry": [
+        "scripts/ecc.js"
+      ],
+      "point": [
+        "scripts/ecc.js"
+      ],
+      "gan-harnesssh": [
+        "scripts/gan-harness.sh"
+      ],
+      "setup": [
+        "scripts/gan-harness.sh"
+      ],
+      "gemini-adapt-agentsjs": [
+        "scripts/gemini-adapt-agents.js"
+      ],
+      "adapt": [
+        "scripts/gemini-adapt-agents.js"
+      ],
+      "agents": [
+        "scripts/gemini-adapt-agents.js"
+      ],
+      "gemini": [
+        "scripts/gemini-adapt-agents.js"
+      ],
+      "harness-auditjs": [
+        "scripts/harness-audit.js"
+      ],
+      "installsh": [
+        "scripts/install.sh` / `.ps1` / `.cmd"
+      ],
+      "ps1": [
+        "scripts/install.sh` / `.ps1` / `.cmd"
+      ],
+      "cmd": [
+        "scripts/install.sh` / `.ps1` / `.cmd"
+      ],
+      "cross-platform": [
+        "scripts/install.sh` / `.ps1` / `.cmd"
+      ],
+      "install-applyjs": [
+        "scripts/install-apply.js` / `install-plan.js"
+      ],
+      "install-planjs": [
+        "scripts/install-apply.js` / `install-plan.js"
+      ],
+      "two-phase": [
+        "scripts/install-apply.js` / `install-plan.js"
+      ],
+      "logic": [
+        "scripts/install-apply.js` / `install-plan.js"
+      ],
+      "orchestrate-worktreesjs": [
+        "scripts/orchestrate-worktrees.js"
+      ],
+      "multi-worktree": [
+        "scripts/orchestrate-worktrees.js"
+      ],
+      "orchestration": [
+        "scripts/orchestrate-worktrees.js"
+      ],
+      "releasepy": [
+        "scripts/release.py` / `release.sh"
+      ],
+      "releasesh": [
+        "scripts/release.py` / `release.sh"
+      ],
+      "release": [
+        "scripts/release.py` / `release.sh"
+      ],
+      "pipeline": [
+        "scripts/release.py` / `release.sh",
+        "scripts/ci/"
+      ],
+      "repairjs": [
+        "scripts/repair.js"
+      ],
+      "fix": [
+        "scripts/repair.js"
+      ],
+      "broken": [
+        "scripts/repair.js"
+      ],
+      "installs": [
+        "scripts/repair.js"
+      ],
+      "run_testssh": [
+        "scripts/run_tests.sh"
+      ],
+      "run": [
+        "scripts/run_tests.sh"
+      ],
+      "suite": [
+        "scripts/run_tests.sh"
+      ],
+      "skills-healthjs": [
+        "scripts/skills-health.js"
+      ],
+      "integrity": [
+        "scripts/skills-health.js"
+      ],
+      "statusjs": [
+        "scripts/status.js"
+      ],
+      "status": [
+        "scripts/status.js"
+      ],
+      "reporter": [
+        "scripts/status.js"
+      ],
+      "uninstalljs": [
+        "scripts/uninstall.js"
+      ],
+      "uninstall": [
+        "scripts/uninstall.js"
+      ],
+      "handler": [
+        "scripts/uninstall.js"
+      ],
+      "validate-linkssh": [
+        "scripts/validate-links.sh` / `validate-glossary.sh"
+      ],
+      "validate-glossarysh": [
+        "scripts/validate-links.sh` / `validate-glossary.sh"
+      ],
+      "doc": [
+        "scripts/validate-links.sh` / `validate-glossary.sh"
+      ],
+      "validation": [
+        "scripts/validate-links.sh` / `validate-glossary.sh"
+      ],
+      "dir": [
+        "scripts/Dir",
+        "tests/Dir"
+      ],
+      "contents": [
+        "scripts/Dir"
+      ],
+      "scripts": [
+        "scripts/ci/",
+        "scripts/codex/",
+        "scripts/hooks/",
+        "skills/scripts/"
+      ],
+      "codemaps": [
+        "scripts/codemaps/"
+      ],
+      "codemap": [
+        "scripts/codemaps/"
+      ],
+      "generation": [
+        "scripts/codemaps/",
+        "tools/image_generation_tool.py"
+      ],
+      "codex": [
+        "scripts/codex/",
+        "scripts/codex-git-hooks/"
+      ],
+      "codex-specific": [
+        "scripts/codex/"
+      ],
+      "codex-git-hooks": [
+        "scripts/codex-git-hooks/"
+      ],
+      "git": [
+        "scripts/codex-git-hooks/"
+      ],
+      "hooks": [
+        "scripts/codex-git-hooks/",
+        "scripts/hooks/"
+      ],
+      "lib": [
+        "scripts/lib/"
+      ],
+      "shared": [
+        "scripts/lib/"
+      ],
+      "script": [
+        "scripts/lib/"
+      ],
+      "libraries": [
+        "scripts/lib/"
+      ],
+      "skillmd": [
+        "skills/SKILL.md"
+      ],
+      "examples": [
+        "skills/examples/"
+      ],
+      "resources": [
+        "skills/resources/"
+      ],
+      "agent-orchestration-multi-agent-optimize": [
+        "skills/agent-orchestration-multi-agent-optimize"
+      ],
+      "agent-orchestrator": [
+        "skills/agent-orchestrator"
+      ],
+      "agentflow": [
+        "skills/agentflow"
+      ],
+      "agentic-engineering": [
+        "skills/agentic-engineering"
+      ],
+      "ai-agents-architect": [
+        "skills/ai-agents-architect"
+      ],
+      "dispatching-parallel-agents": [
+        "skills/dispatching-parallel-agents"
+      ],
+      "multi-agent": [
+        "skills/multi-agent"
+      ],
+      "ai-engineer": [
+        "skills/ai-engineer"
+      ],
+      "ai-engineering-toolkit": [
+        "skills/ai-engineering-toolkit"
+      ],
+      "ai-first-engineering": [
+        "skills/ai-first-engineering"
+      ],
+      "claude-mem": [
+        "skills/claude-mem"
+      ],
+      "claude-api": [
+        "skills/claude-api"
+      ],
+      "llm-application-developer": [
+        "skills/llm-application-developer"
+      ],
+      "advanced-evaluation": [
+        "skills/advanced-evaluation"
+      ],
+      "active-directory-attacks": [
+        "skills/active-directory-attacks"
+      ],
+      "ethical-hacking-methodology": [
+        "skills/ethical-hacking-methodology"
+      ],
+      "security-review": [
+        "skills/security-review"
+      ],
+      "aegisops-ai": [
+        "skills/aegisops-ai"
+      ],
+      "agentic-actions-auditor": [
+        "skills/agentic-actions-auditor"
+      ],
+      "3d-web-experience": [
+        "skills/3d-web-experience"
+      ],
+      "algorithmic-art": [
+        "skills/algorithmic-art"
+      ],
+      "canvas-design": [
+        "skills/canvas-design"
+      ],
+      "frontend-design": [
+        "skills/frontend-design"
+      ],
+      "ui-ux-pro-max": [
+        "skills/ui-ux-pro-max"
+      ],
+      "web-artifacts-builder": [
+        "skills/web-artifacts-builder"
+      ],
+      "theme-factory": [
+        "skills/theme-factory"
+      ],
+      "brand-guidelines": [
+        "skills/brand-guidelines"
+      ],
+      "systematic-debugging": [
+        "skills/systematic-debugging"
+      ],
+      "webapp-testing": [
+        "skills/webapp-testing"
+      ],
+      "receiving-code-review": [
+        "skills/receiving-code-review"
+      ],
+      "finishing-a-development-branch": [
+        "skills/finishing-a-development-branch"
+      ],
+      "subagent-driven-development": [
+        "skills/subagent-driven-development"
+      ],
+      "git-pushing": [
+        "skills/git-pushing"
+      ],
+      "xlsx": [
+        "skills/xlsx"
+      ],
+      "pptx": [
+        "skills/pptx"
+      ],
+      "pdf": [
+        "skills/pdf"
+      ],
+      "internal-comms": [
+        "skills/internal-comms"
+      ],
+      "brainstorming": [
+        "skills/brainstorming"
+      ],
+      "writing-plans": [
+        "skills/writing-plans"
+      ],
+      "planning-with-files": [
+        "skills/planning-with-files"
+      ],
+      "executing-plans": [
+        "skills/executing-plans"
+      ],
+      "verification-before-completion": [
+        "skills/verification-before-completion"
+      ],
+      "activecampaign-automation": [
+        "skills/activecampaign-automation"
+      ],
+      "agent-payment-x402": [
+        "skills/agent-payment-x402"
+      ],
+      "agentmail": [
+        "skills/agentmail"
+      ],
+      "composio": [
+        "skills/composio"
+      ],
+      "stripe-integration": [
+        "skills/stripe-integration"
+      ],
+      "1password": [
+        "skills/1password"
+      ],
+      "mcp-builder": [
+        "skills/mcp-builder",
+        "skills/mcp-builder"
+      ],
+      "skill-creator": [
+        "skills/skill-creator"
+      ],
+      "writing-skills": [
+        "skills/writing-skills"
+      ],
+      "skill-smith": [
+        "skills/skill-smith"
+      ],
+      "datacatalogjson": [
+        "skills/data/catalog.json",
+        "tools/data/catalog.json"
+      ],
+      "focus": [
+        "talents/Bundle"
+      ],
+      "composition-patterns": [
+        "talents/composition-patterns/"
+      ],
+      "react": [
+        "talents/composition-patterns/",
+        "talents/react-best-practices/",
+        "talents/react-native-skills/"
+      ],
+      "composition": [
+        "talents/composition-patterns/"
+      ],
+      "patterns": [
+        "talents/composition-patterns/"
+      ],
+      "deploy-to-vercel": [
+        "talents/deploy-to-vercel/"
+      ],
+      "vercel": [
+        "talents/deploy-to-vercel/",
+        "talents/vercel-cli-with-tokens/"
+      ],
+      "deployment": [
+        "talents/deploy-to-vercel/"
+      ],
+      "react-best-practices": [
+        "talents/react-best-practices/"
+      ],
+      "modern": [
+        "talents/react-best-practices/"
+      ],
+      "idioms": [
+        "talents/react-best-practices/"
+      ],
+      "react-native-skills": [
+        "talents/react-native-skills/"
+      ],
+      "react-view-transitions": [
+        "talents/react-view-transitions/"
+      ],
+      "view": [
+        "talents/react-view-transitions/"
+      ],
+      "transitions": [
+        "talents/react-view-transitions/"
+      ],
+      "vercel-cli-with-tokens": [
+        "talents/vercel-cli-with-tokens/"
+      ],
+      "token": [
+        "talents/vercel-cli-with-tokens/"
+      ],
+      "auth": [
+        "talents/vercel-cli-with-tokens/"
+      ],
+      "web-design-guidelines": [
+        "talents/web-design-guidelines/"
+      ],
+      "standards": [
+        "talents/web-design-guidelines/"
+      ],
+      "conftestpy": [
+        "tests/conftest.py"
+      ],
+      "run_interrupt_testpy": [
+        "tests/run_interrupt_test.py"
+      ],
+      "test_py": [
+        "tests/test_*.py"
+      ],
+      "tests": [
+        "tests/Dir",
+        "tests/gateway/",
+        "tests/hermes_cli/",
+        "tests/hermes_state/",
+        "tests/honcho_plugin/",
+        "tests/integration/",
+        "tests/plugins/",
+        "tests/run_agent/",
+        "tests/skills/",
+        "tests/tools/",
+        "tests/tui_gateway/",
+        "tests/website/"
+      ],
+      "fakes": [
+        "tests/fakes/"
+      ],
+      "fakesmocks": [
+        "tests/fakes/"
+      ],
+      "gateway": [
+        "tests/gateway/",
+        "tests/gateway/",
+        "tests/tui_gateway/",
+        "tools/managed_tool_gateway.py"
+      ],
+      "layer": [
+        "tests/gateway/"
+      ],
+      "hermes_cli": [
+        "tests/hermes_cli/"
+      ],
+      "hermes": [
+        "tests/hermes_cli/",
+        "tests/hermes_state/"
+      ],
+      "hermes_state": [
+        "tests/hermes_state/"
+      ],
+      "state": [
+        "tests/hermes_state/"
+      ],
+      "honcho_plugin": [
+        "tests/honcho_plugin/"
+      ],
+      "honcho": [
+        "tests/honcho_plugin/"
+      ],
+      "plugin": [
+        "tests/honcho_plugin/",
+        "tests/plugins/"
+      ],
+      "plugins": [
+        "tests/plugins/"
+      ],
+      "run_agent": [
+        "tests/run_agent/"
+      ],
+      "tools": [
+        "tests/tools/",
+        "tools/cronjob_tools.py",
+        "tools/file_tools.py` / `file_operations.py` / `file_state.py",
+        "tools/transcription_tools.py` / `tts_tool.py` / `voice_mode.py"
+      ],
+      "tui_gateway": [
+        "tests/tui_gateway/"
+      ],
+      "tui": [
+        "tests/tui_gateway/"
+      ],
+      "website": [
+        "tests/website/"
+      ],
+      "websiteweb": [
+        "tests/website/"
+      ],
+      "capability": [
+        "tools/Module"
+      ],
+      "approvalpy": [
+        "tools/approval.py"
+      ],
+      "user": [
+        "tools/approval.py"
+      ],
+      "approval": [
+        "tools/approval.py"
+      ],
+      "prompts": [
+        "tools/approval.py"
+      ],
+      "browser_toolpy": [
+        "tools/browser_tool.py` / `browser_cdp_tool.py` / `browser_camofox.py"
+      ],
+      "browser_cdp_toolpy": [
+        "tools/browser_tool.py` / `browser_cdp_tool.py` / `browser_camofox.py"
+      ],
+      "browser_camofoxpy": [
+        "tools/browser_tool.py` / `browser_cdp_tool.py` / `browser_camofox.py"
+      ],
+      "browser": [
+        "tools/browser_tool.py` / `browser_cdp_tool.py` / `browser_camofox.py"
+      ],
+      "budget_configpy": [
+        "tools/budget_config.py"
+      ],
+      "tokencost": [
+        "tools/budget_config.py"
+      ],
+      "budget": [
+        "tools/budget_config.py"
+      ],
+      "checkpoint_managerpy": [
+        "tools/checkpoint_manager.py"
+      ],
+      "session": [
+        "tools/checkpoint_manager.py",
+        "tools/session_search_tool.py"
+      ],
+      "saverestore": [
+        "tools/checkpoint_manager.py"
+      ],
+      "clarify_toolpy": [
+        "tools/clarify_tool.py"
+      ],
+      "clarification": [
+        "tools/clarify_tool.py"
+      ],
+      "requests": [
+        "tools/clarify_tool.py"
+      ],
+      "code_execution_toolpy": [
+        "tools/code_execution_tool.py"
+      ],
+      "sandboxed": [
+        "tools/code_execution_tool.py"
+      ],
+      "credential_filespy": [
+        "tools/credential_files.py"
+      ],
+      "credential": [
+        "tools/credential_files.py"
+      ],
+      "file": [
+        "tools/credential_files.py",
+        "tools/file_tools.py` / `file_operations.py` / `file_state.py"
+      ],
+      "handling": [
+        "tools/credential_files.py",
+        "tools/interrupt.py"
+      ],
+      "cronjob_toolspy": [
+        "tools/cronjob_tools.py"
+      ],
+      "scheduled": [
+        "tools/cronjob_tools.py"
+      ],
+      "job": [
+        "tools/cronjob_tools.py"
+      ],
+      "delegate_toolpy": [
+        "tools/delegate_tool.py"
+      ],
+      "sub-agent": [
+        "tools/delegate_tool.py"
+      ],
+      "delegation": [
+        "tools/delegate_tool.py"
+      ],
+      "discord_toolpy": [
+        "tools/discord_tool.py"
+      ],
+      "discord": [
+        "tools/discord_tool.py"
+      ],
+      "feishu_doc_toolpy": [
+        "tools/feishu_doc_tool.py` / `feishu_drive_tool.py"
+      ],
+      "feishu_drive_toolpy": [
+        "tools/feishu_doc_tool.py` / `feishu_drive_tool.py"
+      ],
+      "feishulark": [
+        "tools/feishu_doc_tool.py` / `feishu_drive_tool.py"
+      ],
+      "file_toolspy": [
+        "tools/file_tools.py` / `file_operations.py` / `file_state.py"
+      ],
+      "file_operationspy": [
+        "tools/file_tools.py` / `file_operations.py` / `file_state.py"
+      ],
+      "file_statepy": [
+        "tools/file_tools.py` / `file_operations.py` / `file_state.py"
+      ],
+      "image_generation_toolpy": [
+        "tools/image_generation_tool.py"
+      ],
+      "image": [
+        "tools/image_generation_tool.py"
+      ],
+      "interruptpy": [
+        "tools/interrupt.py"
+      ],
+      "interrupt": [
+        "tools/interrupt.py"
+      ],
+      "cancel": [
+        "tools/interrupt.py"
+      ],
+      "managed_tool_gatewaypy": [
+        "tools/managed_tool_gateway.py"
+      ],
+      "routing": [
+        "tools/managed_tool_gateway.py",
+        "tools/mixture_of_agents_tool.py"
+      ],
+      "mcp_toolpy": [
+        "tools/mcp_tool.py` / `mcp_oauth.py` / `mcp_oauth_manager.py"
+      ],
+      "mcp_oauthpy": [
+        "tools/mcp_tool.py` / `mcp_oauth.py` / `mcp_oauth_manager.py"
+      ],
+      "mcp_oauth_managerpy": [
+        "tools/mcp_tool.py` / `mcp_oauth.py` / `mcp_oauth_manager.py"
+      ],
+      "memory_toolpy": [
+        "tools/memory_tool.py"
+      ],
+      "persistent": [
+        "tools/memory_tool.py"
+      ],
+      "memory": [
+        "tools/memory_tool.py"
+      ],
+      "mixture_of_agents_toolpy": [
+        "tools/mixture_of_agents_tool.py"
+      ],
+      "multi-model": [
+        "tools/mixture_of_agents_tool.py"
+      ],
+      "openrouter_clientpy": [
+        "tools/openrouter_client.py"
+      ],
+      "openrouter": [
+        "tools/openrouter_client.py"
+      ],
+      "client": [
+        "tools/openrouter_client.py",
+        "tools/xai_http.py"
+      ],
+      "osv_checkpy": [
+        "tools/osv_check.py"
+      ],
+      "osv": [
+        "tools/osv_check.py"
+      ],
+      "vulnerability": [
+        "tools/osv_check.py"
+      ],
+      "path_securitypy": [
+        "tools/path_security.py"
+      ],
+      "path": [
+        "tools/path_security.py"
+      ],
+      "traversal": [
+        "tools/path_security.py"
+      ],
+      "protection": [
+        "tools/path_security.py"
+      ],
+      "process_registrypy": [
+        "tools/process_registry.py"
+      ],
+      "process": [
+        "tools/process_registry.py"
+      ],
+      "tracking": [
+        "tools/process_registry.py"
+      ],
+      "schema_sanitizerpy": [
+        "tools/schema_sanitizer.py"
+      ],
+      "normalization": [
+        "tools/schema_sanitizer.py"
+      ],
+      "send_message_toolpy": [
+        "tools/send_message_tool.py"
+      ],
+      "message": [
+        "tools/send_message_tool.py"
+      ],
+      "dispatch": [
+        "tools/send_message_tool.py"
+      ],
+      "session_search_toolpy": [
+        "tools/session_search_tool.py"
+      ],
+      "history": [
+        "tools/session_search_tool.py"
+      ],
+      "skill_manager_toolpy": [
+        "tools/skill_manager_tool.py` / `skills_tool.py` / `skills_hub.py` / `skills_sync.py` / `skills_guard.py"
+      ],
+      "skills_toolpy": [
+        "tools/skill_manager_tool.py` / `skills_tool.py` / `skills_hub.py` / `skills_sync.py` / `skills_guard.py"
+      ],
+      "skills_hubpy": [
+        "tools/skill_manager_tool.py` / `skills_tool.py` / `skills_hub.py` / `skills_sync.py` / `skills_guard.py"
+      ],
+      "skills_syncpy": [
+        "tools/skill_manager_tool.py` / `skills_tool.py` / `skills_hub.py` / `skills_sync.py` / `skills_guard.py"
+      ],
+      "skills_guardpy": [
+        "tools/skill_manager_tool.py` / `skills_tool.py` / `skills_hub.py` / `skills_sync.py` / `skills_guard.py"
+      ],
+      "runtime": [
+        "tools/skill_manager_tool.py` / `skills_tool.py` / `skills_hub.py` / `skills_sync.py` / `skills_guard.py"
+      ],
+      "terminal_toolpy": [
+        "tools/terminal_tool.py"
+      ],
+      "terminal": [
+        "tools/terminal_tool.py"
+      ],
+      "command": [
+        "tools/terminal_tool.py"
+      ],
+      "tirith_securitypy": [
+        "tools/tirith_security.py"
+      ],
+      "tirith": [
+        "tools/tirith_security.py"
+      ],
+      "policy": [
+        "tools/tirith_security.py",
+        "tools/web_tools.py` / `website_policy.py"
+      ],
+      "engine": [
+        "tools/tirith_security.py"
+      ],
+      "todo_toolpy": [
+        "tools/todo_tool.py"
+      ],
+      "todo": [
+        "tools/todo_tool.py"
+      ],
+      "transcription_toolspy": [
+        "tools/transcription_tools.py` / `tts_tool.py` / `voice_mode.py"
+      ],
+      "tts_toolpy": [
+        "tools/transcription_tools.py` / `tts_tool.py` / `voice_mode.py"
+      ],
+      "voice_modepy": [
+        "tools/transcription_tools.py` / `tts_tool.py` / `voice_mode.py"
+      ],
+      "audiovoice": [
+        "tools/transcription_tools.py` / `tts_tool.py` / `voice_mode.py"
+      ],
+      "url_safetypy": [
+        "tools/url_safety.py"
+      ],
+      "url": [
+        "tools/url_safety.py"
+      ],
+      "safety": [
+        "tools/url_safety.py"
+      ],
+      "checks": [
+        "tools/url_safety.py"
+      ],
+      "vision_toolspy": [
+        "tools/vision_tools.py"
+      ],
+      "imagevision": [
+        "tools/vision_tools.py"
+      ],
+      "web_toolspy": [
+        "tools/web_tools.py` / `website_policy.py"
+      ],
+      "website_policypy": [
+        "tools/web_tools.py` / `website_policy.py"
+      ],
+      "fetch": [
+        "tools/web_tools.py` / `website_policy.py"
+      ],
+      "xai_httppy": [
+        "tools/xai_http.py"
+      ],
+      "xai": [
+        "tools/xai_http.py"
+      ],
+      "yuanbao_toolspy": [
+        "tools/yuanbao_tools.py"
+      ],
+      "yuanbao": [
+        "tools/yuanbao_tools.py"
+      ],
+      "tencent": [
+        "tools/yuanbao_tools.py"
+      ]
+    },
+    "triggers": {
+      "skill.md": "skills/SKILL.md",
+      "scripts/": "skills/scripts/",
+      "examples/": "skills/examples/",
+      "resources/": "skills/resources/",
+      "agent": "skills/agent-payment-x402",
+      "orchestration": "skills/agent-orchestration-multi-agent-optimize",
+      "multi": "skills/multi-agent",
+      "optimize": "skills/agent-orchestration-multi-agent-optimize",
+      "orchestrator": "skills/agent-orchestrator",
+      "sort": "skills/agent-sort",
+      "agentflow": "skills/agentflow",
+      "agentic": "skills/agentic-actions-auditor",
+      "engineering": "skills/ai-first-engineering",
+      "agents": "skills/dispatching-parallel-agents",
+      "architect": "skills/ai-agents-architect",
+      "dispatching": "skills/dispatching-parallel-agents",
+      "parallel": "skills/dispatching-parallel-agents",
+      "loop": "skills/loop-operator",
+      "operator": "skills/loop-operator",
+      "engineer": "skills/ai-engineer",
+      "toolkit": "skills/ai-engineering-toolkit",
+      "first": "skills/ai-first-engineering",
+      "claude": "skills/claude-api",
+      "mem": "skills/claude-mem",
+      "api": "skills/claude-api",
+      "llm": "skills/llm-application-developer",
+      "application": "skills/llm-application-developer",
+      "developer": "skills/llm-application-developer",
+      "advanced": "skills/advanced-evaluation",
+      "evaluation": "skills/advanced-evaluation",
+      "active": "skills/active-directory-attacks",
+      "directory": "skills/active-directory-attacks",
+      "attacks": "skills/active-directory-attacks",
+      "ethical": "skills/ethical-hacking-methodology",
+      "hacking": "skills/ethical-hacking-methodology",
+      "methodology": "skills/ethical-hacking-methodology",
+      "security": "skills/security-review",
+      "review": "skills/receiving-code-review",
+      "aegisops": "skills/aegisops-ai",
+      "actions": "skills/agentic-actions-auditor",
+      "auditor": "skills/agentic-actions-auditor",
+      "web": "skills/web-artifacts-builder",
+      "experience": "skills/3d-web-experience",
+      "algorithmic": "skills/algorithmic-art",
+      "art": "skills/algorithmic-art",
+      "canvas": "skills/canvas-design",
+      "design": "skills/frontend-design",
+      "frontend": "skills/frontend-design",
+      "pro": "skills/ui-ux-pro-max",
+      "max": "skills/ui-ux-pro-max",
+      "artifacts": "skills/web-artifacts-builder",
+      "builder": "skills/mcp-builder",
+      "theme": "skills/theme-factory",
+      "factory": "skills/theme-factory",
+      "brand": "skills/brand-guidelines",
+      "guidelines": "skills/brand-guidelines",
+      "tdd": "skills/tdd-guide",
+      "guide": "skills/tdd-guide",
+      "systematic": "skills/systematic-debugging",
+      "debugging": "skills/systematic-debugging",
+      "webapp": "skills/webapp-testing",
+      "testing": "skills/webapp-testing",
+      "receiving": "skills/receiving-code-review",
+      "code": "skills/receiving-code-review",
+      "finishing": "skills/finishing-a-development-branch",
+      "development": "skills/subagent-driven-development",
+      "branch": "skills/finishing-a-development-branch",
+      "subagent": "skills/subagent-driven-development",
+      "driven": "skills/subagent-driven-development",
+      "git": "skills/git-pushing",
+      "pushing": "skills/git-pushing",
+      "docx": "skills/docx",
+      "xlsx": "skills/xlsx",
+      "pptx": "skills/pptx",
+      "pdf": "skills/pdf",
+      "internal": "skills/internal-comms",
+      "comms": "skills/internal-comms",
+      "brainstorming": "skills/brainstorming",
+      "writing": "skills/writing-skills",
+      "plans": "skills/executing-plans",
+      "planning": "skills/planning-with-files",
+      "with": "skills/planning-with-files",
+      "files": "skills/planning-with-files",
+      "executing": "skills/executing-plans",
+      "verification": "skills/verification-before-completion",
+      "before": "skills/verification-before-completion",
+      "completion": "skills/verification-before-completion",
+      "activecampaign": "skills/activecampaign-automation",
+      "automation": "skills/activecampaign-automation",
+      "payment": "skills/agent-payment-x402",
+      "x402": "skills/agent-payment-x402",
+      "agentmail": "skills/agentmail",
+      "composio": "skills/composio",
+      "stripe": "skills/stripe-integration",
+      "integration": "skills/stripe-integration",
+      "1password": "skills/1password",
+      "mcp": "skills/mcp-builder",
+      "skill": "skills/skill-smith",
+      "creator": "skills/skill-creator",
+      "skills": "skills/writing-skills",
+      "smith": "skills/skill-smith",
+      "data/catalog.json": "skills/data/catalog.json"
+    }
+  }
+}
